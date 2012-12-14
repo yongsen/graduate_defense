@@ -1,0 +1,343 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{baldini2010early}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Baldini}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nai~Fovino}{N.~F.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masera}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Luise}{L.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pellegrini}{P.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bagagli}{B.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rubino}{R.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Malangone}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stefano}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Senesi}{S.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{BG+1}
+  \strng{fullhash}{BGNFIMMLMPVBERGMRSMSF1}
+  \field{title}{An early warning system for detecting GSM-R wireless
+  interference in the high-speed railway infrastructure}
+  \field{journaltitle}{International Journal of Critical Infrastructure
+  Protection}
+  \field{year}{2010}
+\endentry
+
+\entry{perahia2008next}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Perahia}{P.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stacey}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PE+1}
+  \strng{fullhash}{PESR1}
+  \field{pages}{02}
+  \field{title}{{Next Generation Wireless LANs}: throughput, robustness and
+  reliability in 802.11n}
+  \field{volume}{67}
+  \field{journaltitle}{Recherche}
+  \field{year}{2008}
+\endentry
+
+\entry{Akyildiz06nextgeneration/dynamic}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Akyildiz}{A.}%
+     {Ian~F.}{I.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Won-Yeol}{W.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vuran}{V.}%
+     {Mehmet~C.}{M.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mohanty}{M.}%
+     {Shantidev}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AIF+1}
+  \strng{fullhash}{AIFLWYVMCMS1}
+  \field{pages}{2127\bibrangedash 2159}
+  \field{title}{NeXt generation/dynamic spectrum access/cognitive Radio
+  Wireless Networks: A Survey}
+  \field{volume}{50}
+  \field{journaltitle}{COMPUTER NETWORKS JOURNAL (ELSEVIER)}
+  \field{year}{2006}
+\endentry
+
+\entry{lee1985estimate}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lee}{L.}%
+     {W.C.Y.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{LW1}
+  \strng{fullhash}{LW1}
+  \field{pages}{22\bibrangedash 27}
+  \field{title}{Estimate of local average power of a mobile radio signal}
+  \field{journaltitle}{IEEE Trans. on Vehicular Technology}
+  \field{year}{1985}
+\endentry
+
+\entry{Ai2009wcsp}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ai}{A.}%
+     {Bo}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhong}{Z.}%
+     {Zhang}{Z.}%
+     {dui}{d.}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {Gang}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Si}{S.}%
+     {yu}{y.}%
+     {}{}}%
+  }
+  \strng{namehash}{AB+1}
+  \strng{fullhash}{ABZZdZGLSy1}
+  \field{booktitle}{WCSP '2009}
+  \field{title}{Theoretical analysis on local mean signal power for wireless
+  field strength coverage}
+\endentry
+
+\entry{tepedelenlio?lu2001estimation}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Tepedelenlio{\u{g}}lu}{T.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abdi}{A.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giannakis}{G.}%
+     {G.B.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaveh}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{TC+1}
+  \strng{fullhash}{TCAAGGKM1}
+  \field{pages}{221\bibrangedash 242}
+  \field{title}{Estimation of Doppler spread and signal strength in mobile
+  communications with applications to handoff and adaptive transmission}
+  \field{journaltitle}{Wireless Commun. and Mobile Computing}
+  \field{year}{2001}
+\endentry
+
+\entry{Vega2009}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Vega}{V.}%
+     {D.}{D.}%
+     {de~la}{d.~l.}%
+     {}{}}%
+    {{}%
+     {Lopez}{L.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matias}{M.}%
+     {J.M.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gil}{G.}%
+     {U.}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pena}{P.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Velez}{V.}%
+     {M.M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ordiales}{O.}%
+     {J.L.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Angueira}{A.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VDdl+1}
+  \strng{fullhash}{VDdlLSMJGUPIVMOJAP1}
+  \field{number}{2}
+  \field{pages}{506 \bibrangedash 516}
+  \field{title}{Generalization of the Lee Method for the Analysis of the Signal
+  Variability}
+  \field{volume}{58}
+  \field{journaltitle}{IEEE Trans. on Vehicular Technology}
+  \field{year}{2009}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{gopal2009power}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gopal}{G.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Singh}{S.}%
+     {A.K.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shanmugam}{S.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GL+1}
+  \strng{fullhash}{GLSASV1}
+  \field{pages}{P88}
+  \field{title}{Power Estimation in Mobile Communication Systems}
+  \field{journaltitle}{Comp. and Info. Science}
+  \field{year}{2009}
+\endentry
+
+\entry{itoh2002performance}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Itoh}{I.}%
+     {K.I.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Watanabe}{W.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shih}{S.}%
+     {J.S.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sato}{S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{IK+1}
+  \strng{fullhash}{IKWSSJST1}
+  \field{pages}{1460\bibrangedash 1468}
+  \field{title}{Performance of handoff algorithm based on distance and RSSI
+  measurements}
+  \field{journaltitle}{IEEE Trans. on Vehicular Technology}
+  \field{year}{2002}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

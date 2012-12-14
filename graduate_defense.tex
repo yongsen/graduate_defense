@@ -1,0 +1,906 @@
+% $Header: /Users/joseph/Documents/LaTeX/beamer/solutions/conference-talks/conference-ornate-20min.en.tex,v 90e850259b8b 2007/01/28 20:48:30 tantau $
+
+\documentclass[CJK,hyperref={bookmarks=false,CJKbookmarks=false}]{beamer}
+
+\usepackage{CJK}
+%\usepackage{CJK,CJKnumb}
+%\usepackage{ctex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{textpos}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{hyperref}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{ulem,tikz}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+\usepackage{stfloats}
+\usepackage[caption=false,font=scriptsize]{subfig}
+%\usepackage[font=scriptsize,labelfont=scriptsize]{caption}
+
+%\setbeameroption{show notes on second screen}
+%\setbeamertemplate{note page}[compress]
+\usepackage{csquotes}
+%\usepackage[style=numeric-comp,autocite=footnote,citetracker=true,maxnames=1,sorting=none,babel=hyphen,hyperref=true,backend=biber]{biblatex}
+\usepackage[style=numeric-comp,autocite=footnote,citetracker=true,maxnames=1,sorting=none]{biblatex}
+%\usepackage[style=verbose,autocite=footnote,citetracker=true,maxnames=1,sorting=none,babel=hyphen,hyperref=true,backend=biber]{biblatex}
+
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+\setbeamertemplate{caption}[numbered]
+\captionsetup{font=scriptsize,labelfont=scriptsize}
+\setbeamerfont{caption}{size=\scriptsize}
+\hypersetup{pdfpagemode=FullScreen}
+\setbeamercovered{invisible}
+\setlength{\skip\footins}{25cm plus 0cm minus 25cm}
+\setlength{\footnotesep}{0.3cm}
+\renewcommand*{\bibfont}{\tiny}
+
+\mode<presentation>
+{%\usetheme{Boadilla}
+%  %\usetheme{Copenhagen}
+%  \setbeamertemplate{navigation symbols}{}
+  \usetheme{Madrid}
+  \setbeamercovered{transparent}
+  \setbeamertemplate{sidebar right}{}% or get rid of navigation entries there somehow
+  %\addtobeamertemplate{footline}{\hfill\usebeamertemplate***{navigation symbols}\par}{}
+}
+
+
+\DeclareCiteCommand{\footfullcitetext}
+  [\let\thefootnote\relax\mkbibfootnotetext]
+  {\usebibmacro{prenote}}
+  {\mkbibbrackets{\thefield{labelnumber}}%
+   \addnbspace
+   \usedriver
+     {\DeclareNameAlias{sortname}{default}}
+     {\thefield{entrytype}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\makeatletter
+
+\let\cbx@citehook=\empty
+\newtoggle{cbx@blockcite}
+
+\renewcommand{\@makefntext}[1]{%
+  \noindent\normalfont\@thefnmark#1}
+
+\DeclareCiteCommand{\sfcite}[\cbx@superscript]%
+  {\usebibmacro{cite:init}%
+   \let\multicitedelim=\supercitedelim
+   \iffieldundef{prenote}{}{\BibliographyWarning{Ignoring prenote argument}}%
+   \iffieldundef{postnote}{}{\BibliographyWarning{Ignoring postnote argument}}}
+  {\usebibmacro{citeindex}%
+   \ifciteseen
+     {\ifnumequal{\value{page}}{\csuse{cbx@page@\thefield{entrykey}}}
+       {}
+       {\ifnumequal{\value{framenumber}}{\csuse{cbx@frame@\thefield{entrykey}}}
+          {\usebibmacro{sfcite}}
+          {}}}
+     {\usebibmacro{sfcite}}%
+   \usebibmacro{cite:comp}}
+  {}
+  {\usebibmacro{cite:dump}}
+
+\newbibmacro*{sfcite}{%
+  \csnumgdef{cbx@page@\thefield{entrykey}}{\value{page}}%
+  \csnumgdef{cbx@frame@\thefield{entrykey}}{\value{framenumber}}%
+  \xappto\cbx@citehook{%
+    \noexpand\footfullcitetext{\thefield{entrykey}}}}
+
+\newrobustcmd*{\cbx@superscript}[1]{%
+  \mkbibsuperscript{\mkbibbrackets{#1}}%
+  \iftoggle{cbx@blockcite}
+    {}
+    {\cbx@citehook%
+     \global\let\cbx@citehook=\empty}}
+
+\BeforeBeginEnvironment{block}{\global\toggletrue{cbx@blockcite}}
+
+\def\metabox#1{\edef\theprevdepth{\the\prevdepth}\nointerlineskip
+  \vbox to0pt{#1\vss}\prevdepth=\theprevdepth}
+
+\AfterEndEnvironment{block}
+  {\metabox{%
+     \global\togglefalse{cbx@blockcite}%
+     \cbx@citehook%
+     \global\let\cbx@citehook=\empty}}
+
+
+\BeforeBeginEnvironment{exampleblock}{\global\toggletrue{cbx@blockcite}}
+
+\def\metabox#1{\edef\theprevdepth{\the\prevdepth}\nointerlineskip
+  \vbox to0pt{#1\vss}\prevdepth=\theprevdepth}
+
+\AfterEndEnvironment{exampleblock}
+  {\metabox{%
+     \global\togglefalse{cbx@blockcite}%
+     \cbx@citehook%
+     \global\let\cbx@citehook=\empty}}
+
+\AtEveryCitekey{\iffootnote{\tiny}{\color{blue}}{\vspace{-1ex}}}
+\renewcommand*{\footnoterule}{\kern -1pt \hrule \@width 2in \kern 1pt}
+
+\makeatother
+
+%\addtobeamertemplate{footnote}{\vspace{-6pt}\advance\hsize-0.5cm}{\vspace{6pt}}
+
+%\setbeamersize{text margin left=8pt,text margin right=8pt}
+\addbibresource{Bib.bib}
+
+%% Code for placing the footnote above the navigiation symbols
+%\addtobeamertemplate{footnote}{\vspace{-6pt}}{\vspace{6pt}}
+%\makeatletter
+%% Alternative A: footnote rule
+%\renewcommand*{\footnoterule}{\kern -3pt \hrule \@width 2in \kern 8.6pt}
+%% Alternative B: no footnote rule
+%% \renewcommand*{\footnoterule}{\kern 6pt}
+%\makeatother
+
+\title[移动无线网络通信质量测试与建模] % (optional, use only with long paper titles)
+{移动无线网络通信质量测试与建模}
+
+%\subtitle
+%{研究现状}
+
+\author[马~永森] % (optional, use only with lots of authors)
+{马~永森}
+%{F.~Author\inst{1} \and S.~Another\inst{2}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[上海交通大学] % (optional, but mostly needed)
+{ %上海交通大学
+  \begin{figure}
+  \includegraphics[width=1.2in]{SJTU.pdf}
+  \end{figure}
+}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[\today] % (optional, should be abbreviation of conference name)
+{\today}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{Experimental Computer Science}
+% This is only inserted into the PDF information catalog. Can be left
+% out.
+
+% \pgfdeclareimage[height=5cm]{SJTU}{SJTUW.pdf}
+% \logo{\pgfuseimage{SJTU}}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{提纲}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command:
+%\beamerdefaultoverlayspecification{<+->}
+
+\begin{document}
+\begin{CJK*}{GBK}{hei}
+%\renewcommand{\today}{\CJKnumber{\the\month}月}
+\renewcommand\figurename{图}
+
+%\addtobeamertemplate{frametitle}{}{%
+%\begin{textblock*}{100mm}(0.9\textwidth,-0.5cm)
+%\includegraphics[height=0.8cm]{SJTUB.pdf}
+%\end{textblock*}
+%}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(0.8\textwidth,-0.8cm)
+\includegraphics[height=0.7cm]{SJTU.pdf}
+\end{textblock*}
+}
+
+%\addtobeamertemplate{frame}{}{%
+%\begin{tikzpicture}[remember picture,overlay]
+%\node[anchor=north east] at (current page.north east) {\includegraphics[height=0.9cm]{SJTUW.pdf}};
+%\end{tikzpicture}}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{提纲}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+\section{背景介绍}
+\subsection{移动无线网络}
+\begin{frame}{无线网络发展趋势}
+\begin{columns}[c]
+  \column{2in}
+  \begin{figure}
+    \includegraphics[width=2.0in]{connectivity.pdf}
+   \label{connectivity}
+  \end{figure}
+  \column{2in}
+  \begin{figure}
+    \includegraphics[width=2.0in]{MOT_WNS.pdf}
+  \label{MOT_WNS}
+  \end{figure}
+\end{columns}
+
+\begin{itemize}
+  \item 无线网络发展迅速，几乎在所有\alert{“智能”}系统中都能够找到它的身影，比如智能家居、智能楼宇、智能医疗、智能城市、智慧地球。
+  \item 无线网络业务需求呈持续增加的趋势，同时造成无线频谱资源的过度拥挤。尤其对于移动无线网络而言，其亟需解决的问题是：如何在保证 网络\alert{可靠性}的基础上，尽量提高其\alert{传输性能}？
+\end{itemize}
+\end{frame}
+
+\begin{frame}{可靠性-高速移动网络}
+\begin{itemize}
+  \item 高速铁路的首要问题是保证\alert{安全性}，主要由GSM-R网络来实现；
+  \item 对GSM-R网络尤其是无线接口进行\alert{实时测试}\sfcite{baldini2010early}，以保证安全运行。
+\end{itemize}
+\begin{figure}
+\centerline{
+    \subfloat[业务模型]{\includegraphics[width=1.6in]{gsmrservice.pdf}
+    \label{gsmrservice}
+}
+\hfil
+    \subfloat[网络架构]{\includegraphics[width=2.4in]{gsmr.pdf}
+    \label{gsmr}
+}
+}
+\caption{GSM-R网络业务模型与网络架构}
+\label{gsmr}
+\end{figure}
+\end{frame}
+
+\begin{frame}{传输性能-无线局域网络}
+802.11n网络采用MIMO-OFDM及其相关技术\sfcite{perahia2008next}，从而有效地提升网络的\alert{传输性能}，保证更高的吞吐量与覆盖范围。
+\begin{block}{PHY层}
+    \begin{itemize}
+    \item
+    \textcolor{green!50!black}{MIMO：}采用多天线及空间复用技术，提升PHY吞吐量及覆盖范围，同时提高系统稳定性；
+    \item
+    \textcolor{green!50!black}{HT20/HT40：}采用灵活信道技术，更好地解决载波侦听、隐藏/暴露终端等问题。
+    \end{itemize}
+\end{block}
+\begin{block}{MAC层}
+    \begin{itemize}
+    \item
+    \textcolor{green!50!black}{A-MPDU：}帧聚合技术即多个帧共用一个MAC头部，同时降低ACK发送频率，降低发送/接收开销，提高传输效率；
+    \item
+    \textcolor{green!50!black}{SGI：}400ns保护间隔，降低时间开销，提高MAC吞吐量。
+    \end{itemize}
+\end{block}
+\end{frame}
+
+\subsection{通信质量测试}
+\begin{frame}{通信质量测试}
+  \begin{figure}
+    \includegraphics[width=3.3in]{dynamic.pdf}
+  \label{dynamic}
+  %\caption{xG网络协议结构}
+  \end{figure}
+
+信道状态与链路质量既是衡量无线网络性能的重要指标，同时在网络决策过程中发挥重要作用\sfcite{Akyildiz06nextgeneration/dynamic}，因此关键问题是\alert{如何准确高效地对信道状态与链路质量进行实时测量}，从而实现可靠性与传输性能的有效平衡。
+\end{frame}
+
+\begin{frame}{通信质量测试}
+\begin{block}{移动无线网络时变性与位置差异性}
+\begin{enumerate}
+  \item 接收信号强度与传输成功率受无线传播环境影响，如图~\ref{time_vary}~所示；
+  \item 接收信号强度具有位置差异性，如图~\ref{cdf_rss}~所示；
+  \item 传输成功率在不同时间尺度内发生变化，如图~\ref{pdrvary}~所示。
+\end{enumerate}
+\end{block}
+\begin{figure}
+\centerline{
+    \subfloat[]{\includegraphics[width=1.8in]{time.pdf}
+    \label{time_vary}
+}
+    \subfloat[]{\includegraphics[width=0.9in]{cdfrss.pdf}
+    \label{cdf_rss}
+}
+    \subfloat[]{\includegraphics[width=1.5in]{pdrvary.pdf}
+    \label{pdrvary}
+}
+}
+\caption{接收信号强度与传输成功率的时变性及位置差异性}
+\label{time}
+\end{figure}
+\end{frame}
+
+\section{信道状态采样与估计}
+
+\subsection{问题描述}
+
+\begin{frame}{无线传播测试}
+\begin{block}{测试过程}
+移动网络的无线传播测量过程如图~\ref{measurement}~所示，主要分为本地均值估计、无线传播预测及模型修正。
+\end{block}
+\begin{figure}
+\centering
+\includegraphics[width=4in]{measurement.pdf}
+\caption{移动网络无线传播测量过程}
+\label{measurement}
+\end{figure}
+\end{frame}
+
+\begin{frame}{无线传播测试}
+\begin{exampleblock}{传统方法}
+\begin{itemize}
+  \item Lee氏采样算法最先提出移动网络接收信号强度的本地均值估计问题，基于瑞利衰落分析了统计区间与采样点数的关系；\sfcite{lee1985estimate}
+  \item 其他基于置信区间或最大似然估计的方法，同样在瑞利衰落信道下进行分析；\sfcite{Ai2009wcsp}
+  \item 传统基于莱斯衰落信道的采样算法测试开销太高，无法直接应用于GSM-R网络；\sfcite{tepedelenlio?lu2001estimation}
+  \item 通用Lee氏采样算法不需要衰落信道的分布函数，但最优采样参数需要通过大量数据分析得到，只适用于离线测试。\sfcite{Vega2009}
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}{无线传播测试-GSM-R网络}
+\begin{block}{测试需求}
+\begin{enumerate}
+  \item 在保证测试精度的前提下降低采样频率，从而减小测试开销；
+  \item 根据无线传播环境实时调整采样参数，适应网络状态的变化。
+\end{enumerate}
+\end{block}
+\begin{block}{存在问题}
+\begin{itemize}
+\item 一方面
+\begin{description}
+  \item[速度] 移动终端的运行速度高达250-300km/h；
+  \item[地形] 平原、山地、隧道、高架等复杂地形；
+  \item[无线] 无线接口容易受移动性及外界环境变化影响；
+  \item[服务] 网络所承载业务不能受在线测试影响。
+\end{description}
+\item 另一方面
+\begin{description}
+  \item[平坦] 无线传播环境相对平坦，存在直射路径；
+  \item[固定] 移动线路及速度相对固定。
+\end{description}
+\end{itemize}
+\end{block}
+\end{frame}
+
+\subsection{动态测试算法}
+\begin{frame}{动态测试算法}
+\begin{block}{测试过程}
+莱斯衰落信道的接收信号强度动态测试过程如图~\ref{online_measure}~所示，主要通过参数估计确定\textcolor{green!50!black}{统计区间长度}和\textcolor{green!50!black}{采样点数目}。
+\end{block}
+\begin{figure}
+\centering
+\includegraphics[width=4in]{online.pdf}
+\caption{莱斯衰落信道动态测试过程}
+\label{online_measure}
+\end{figure}
+\end{frame}
+
+\begin{frame}{动态测试算法}
+\begin{block}{1、统计区间长度}
+\scriptsize{
+\begin{equation}
+P_e = 10 \log_{10}\left(\frac{\hat{s}+\sigma_{\hat{s}}}{\hat{s}-\sigma_{\hat{s}}}\right) =10 \log_{10}\left(\frac{\frac{2\sigma^2+\nu^2}{2\sigma^2}n+\sqrt{2(1+n)\int\limits_0^n g\left(\frac{\nu^2}{2\sigma^2};\rho\right) d\rho}}{\frac{2\sigma^2+\nu^2}{2\sigma^2}n-\sqrt{2(1+n)\int\limits_0^n g\left(\frac{\nu^2}{2\sigma^2};\rho\right) d\rho}}\right)
+\label{Perrornu}
+\end{equation}
+}
+\end{block}
+\begin{block}{2、采样点数目}
+\scriptsize{
+\begin{equation}
+\begin{split}
+    Q_e=10 \log_{10}\left(\frac{\bar{r^2}+\sigma_{\bar{r^2}}}{\bar{r^2}}\right)&=10 \log_{10}\left(\frac{\frac{\sigma^2}{N}\left(2N+\nu^2\right)+\frac{2\sigma^2}{N}\sqrt{N+\nu^2}}{\frac{\sigma^2}{N}(2N+\nu^2)}\right)\\
+    &=10 \log_{10}\left(\frac{2N+\nu^2+2\sqrt{N+\nu^2}}{2N+\nu^2}\right)
+\end{split}
+\label{Q_e}
+\end{equation}
+}
+\end{block}
+\end{frame}
+
+\begin{frame}{动态测试算法}
+\begin{columns}[c]
+\column{3in}
+\begin{figure}
+\centerline{
+\subfloat[$\sigma=1$]{
+    \includegraphics[width=1.5in]{sigma11.pdf}
+    \label{sigma1}
+}
+\hfil
+\subfloat[$\sigma=3$]{
+    \includegraphics[width=1.5in]{sigma33.pdf}
+    \label{sigma3}
+}
+}
+\centerline{
+\subfloat[$\sigma=5$]{
+    \includegraphics[width=1.5in]{sigma55.pdf}
+    \label{sigma5}
+}
+\hfil
+\subfloat[$\sigma=7$]{
+    \includegraphics[width=1.5in]{sigma77.pdf}
+    \label{sigma7}
+}
+}
+\caption{统计区间长度归一化误差}
+\label{lengthresult}
+\end{figure}
+\column{1in}
+\begin{block}{统计区间长度}
+\small
+\centering
+{
+$P_e=1dB$\\
+{\Large $\Downarrow$}\\
+$2L=f_{2L}(\lambda;\nu,\sigma)$
+}
+\end{block}
+\end{columns}
+\end{frame}
+
+\begin{frame}{动态测试算法}
+\begin{columns}[c]
+\column{2.6in}
+\begin{figure}
+\centerline{
+\includegraphics[width=2.2in]{nu1.pdf}
+}
+\caption{采样点数目归一化误差}
+\label{nu}
+\end{figure}
+\column{1.5in}
+\begin{block}{采样点数目}
+\centering
+{
+$Q_e=1dB$\\
+{\Large $\Downarrow$}\\
+$N=f_{N}(\lambda;\nu,\sigma)$
+}
+\end{block}
+\centering{
+{\Large $\Downarrow$}
+}
+\begin{exampleblock}{采样频率}
+\centering{
+$\Delta d = 2L/N$
+}
+\end{exampleblock}
+\end{columns}
+\begin{exampleblock}{$\Delta d = 2L/N = f_{2L}(\lambda;\nu,\sigma) / f_{N}(\lambda;\nu,\sigma) = f_{d}(\lambda;\nu,\sigma)$}
+\begin{itemize}
+  \item $\Delta d$ $\Leftarrow$ 统计区间长度$2L$和采样点数目$N$；
+  \item $\Delta d$ $\Rightarrow$ 测量精度与开销。
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}{动态测试算法}
+\begin{block}{测试平台}
+\begin{itemize}
+  \item 硬件平台：CPU：CME137686LX-W；GSM-R：COM16155RER
+  \item 软件平台：系统：Windows XP/CE/Mobile；平台：Microsoft .NET Compact Framework；语言：C\#
+\end{itemize}
+\end{block}
+\begin{figure}
+\centerline{
+\subfloat[硬件平台]{
+    \includegraphics[width=2in]{platform.pdf}
+    \label{hardware}
+}
+\hfil
+\subfloat[软件平台]{
+    \includegraphics[width=2in]{softwareinterface.pdf}
+    \label{software}
+}
+}
+\caption{GSM-R网络空中接口测试系统}
+\label{platform}
+\end{figure}
+\end{frame}
+%
+%\begin{frame}{动态测试算法}
+%\begin{block}{算法设计与软件开发}
+%\begin{itemize}
+%  \item The raw data is processed by the on-line estimation algorithm to provide current network status and conduct next signal sampling.
+%  \item The algorithm can also provide received signal strength prediction, and it will give the warning information when it is necessary.
+%\end{itemize}
+%\end{block}
+%\begin{figure}
+%\centerline
+%{
+%    \subfloat[测试算法]{\includegraphics[width=1.45in]{umframework.pdf}
+%}
+%\hfil
+%    \subfloat[软件功能]{\includegraphics[width=1.8in]{softwarefunction.pdf}
+%}
+%}
+%\caption{测试算法与软件功能}
+%\label{framework}
+%\end{figure}
+%%Since the system records the received signal strength of current and neighbour cells, the data can be used to make handover analysis and network optimization. Except the physical layer information, the system can also give quality of service of the link layer, including data traffic and voice service.
+%\end{frame}
+
+\begin{frame}{动态测试算法}
+\begin{block}{测试结果}
+
+\begin{itemize}
+  \item 在莱斯因子$K = 0$时，统计区间为$2L = 40\lambda$，采样间隔为$0.5\lambda$；
+  \item 随着莱斯因子$K$的增大，统计区间与采样间隔逐渐降低；
+  \item 当$\nu \geq 8$时，采样点数$N \leq 10$便可以保证本地均值的准确性；
+  \item 在$K$逐渐增大时，不需要做频繁的数据采集，采样间隔在$1m$左右。
+\end{itemize}
+\end{block}
+\begin{table}[!t]
+\renewcommand{\arraystretch}{1}
+\centering
+\begin{threeparttable}[b]
+\caption{测试结果}
+\label{summary}
+\setlength{\tabcolsep}{4pt}
+\scriptsize
+\begin{tabular}{c|c||c|c||c|c||c|c||c|c|c}
+\hline
+\multicolumn{1}{c|}{\multirow{3}{*}{Terrain}} & \multicolumn{1}{c||}{\multirow{3}{*}{$K$(dB)}} & \multicolumn{1}{c|}{\multirow{3}{*}{$\nu$}} & \multicolumn{1}{c||}{\multirow{3}{*}{$\sigma$}} & \multicolumn{1}{c|}{\multirow{3}{*}{$2L(\lambda)$}} & \multicolumn{1}{c||}{\multirow{3}{*}{$N$}} & \multicolumn{1}{c|}{\multirow{3}{*}{$\Delta d(\lambda)$}} & \multicolumn{1}{c||}{\multirow{3}{*}{$\Delta d$(m)}} & \multicolumn{3}{c}{$v_{train}$(km/h)}\\
+\cline{9-11}
+\multicolumn{1}{c|}{} & \multicolumn{1}{c||}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c||}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c||}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c||}{} & 200 & 250 & 300\\
+\cline{9-11}
+\multicolumn{1}{c|}{}& \multicolumn{1}{c||}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c||}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c||}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c||}{} & \multicolumn{3}{c}{$\Delta t$(ms)}\\
+\cline{1-11}
+NLOS\tnote{*}  &  0 &    - & - & 40 & 36 &  1.1 & 0.367 &  2.20 &  1.76 &  1.47\\
+\hline
+Intensive  &  0 &    0 & 1 & 55 & 15 &  3.7 & 1.222 &  7.33 &  5.86 &  4.89\\
+           &  2 &    4 & 2 & 18 & 12 &  1.5 & 0.500 &  3.00 &  2.40 &  2.00\\
+           &  4 &  5.6 & 2 &  9 &  9 &  1.0 & 0.333 &  2.00 &  1.60 &  1.33\\
+           &  6 &    6 & 3 & 20 &  7 &  2.9 & 0.967 &  5.80 &  4.64 &  3.87\\
+           &  8 &   12 & 3 &  8 &  1 &  8.0 & 2.667 & 16.00 & 12.80 & 10.67\\
+Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\item[*] \tiny Caculated by Lee's method in the case of Rayleigh fading
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+\end{frame}
+
+\begin{frame}{动态测试算法}
+同时大尺度和小尺度衰落能够有效分离：
+\begin{enumerate}
+  \item 大尺度衰落：通过ML或MMSE估计进行传播预测\sfcite{gopal2009power}
+  \item 小尺度衰落：切换算法的切换门限选择\sfcite{itoh2002performance}
+\end{enumerate}
+\begin{figure}[!t]
+\centerline{
+\subfloat[Signal Strength]{
+    \includegraphics[width=2in]{em.pdf}
+    \label{input}
+}
+\subfloat[Short-term Fading]{
+    \includegraphics[width=2in]{short.pdf}
+    \label{output}
+}
+}
+\caption{测试结果}
+\label{strength}
+\end{figure}
+\end{frame}
+
+\section{链路质量测试与建模}
+
+\subsection{问题描述}
+\begin{frame}{链路质量测试与建模}
+\begin{block}{802.11n的PHY/MAC新技术使得网络测试与配置更为复杂}
+传统的无线网络配置或基于主动探测，或基于固定PDR-RSS模型，在802.11n网络中无法满足多种配置及高传输速率的要求。
+如图\ref{MCS}所示，在所有被选择的HT/GI/MCS配置中，大约34\%落入过渡窗口中，甚至有8\%的配置使得PDR$<$10\%，这种情况在移动802.11n网络中更为明显。
+\end{block}
+\begin{figure}[!t]
+\setcounter{subfigure}{0}
+\centerline{
+    \subfloat[]{\includegraphics[width=0.42\textwidth]{modeling1.pdf}
+    \label{modeling1}
+}
+    \subfloat[]{\includegraphics[width=0.27\textwidth]{pdr.pdf}
+    \label{pdr}
+}
+    \subfloat[]{\includegraphics[width=0.25\textwidth]{MCS.pdf}
+    \label{MCS}
+}
+}
+\end{figure}
+\end{frame}
+
+\subsection{动态测试算法}
+\begin{frame}{在线PDR-RSS建模框架}
+\begin{columns}[c]
+　\column{5cm}
+\begin{block}{指标分层测试：DSWA}
+\scriptsize{
+\begin{itemize}
+  \item
+  物理层：RSS/SNR/SINR/CSI
+  \item
+  链路层：\alert{传输成功率(PDR)}
+\end{itemize}
+}
+\end{block}
+\begin{block}{在线实测模型：GradedM}
+\scriptsize{
+\begin{itemize}
+  \item
+  物理层：MIMO，HT20/HT40
+  \item
+  链路层：LGI/SGI
+\end{itemize}
+}
+\end{block}
+\begin{block}{上层资源分配：GradedR}
+\scriptsize{
+\begin{itemize}
+  \item
+  APs：信道接入、频谱管理
+  \item
+  STAs：\alert{速率控制}、路由选择
+\end{itemize}
+}
+\end{block}
+　\column{5cm}
+\begin{figure}
+    \includegraphics[width=1\textwidth]{modeling.pdf}
+    \label{modeling}
+  \end{figure}
+  \scriptsize{
+  \begin{enumerate}
+  \item 针对链路质量空间-时间及配置多样性，采用动态滑动窗口平均，提高测试精度；
+  \item 采用在线测试与建模的方式，准确刻画当前配置下网络状态，为上层应用提供可靠信息；
+  \item 结合动态测试与在线建模，提高速率适配效率。
+  \end{enumerate}
+  }
+\end{columns}
+\end{frame}
+
+\begin{frame}{测试方法}
+\begin{itemize}
+\item
+  对于每个发送数据包$i(i=1,2,3...)$，其接收状态由$x_i=\{0,1\}$表示，其中$x_i=1$表示第i个数据包成功接收。
+\item
+  数据包的接收成功概率为$P(x_i=1)=p_i$，可以由SINR模型来刻画，或者基于实测数据的PDR-RSS模型。
+\begin{equation}
+     p_i=Prob[SINR_i(t)>\delta]=Prob[\frac{R_i(t)}{I_i(t)+n}>\delta]
+    \label{p_i}
+\end{equation}
+  其中$SINR_i(t)$ 为信噪比, $\delta$为$SINR$门限值，$R_i(t)$为接收信号强度，$I_i(t)$为信号干扰，$n$为背景噪声，一般为固定值。
+\end{itemize}
+\end{frame}
+
+\begin{frame}{静态网络PDR测试方法}
+\begin{block}{EWMA:  $\hat{P_w}[k]=\alpha \hat{P_w}[k-1]+(1-\alpha)P[k]$}
+\begin{enumerate}
+  \item
+  EWMA的加权因子$\alpha$对测试精度有很大影响，在实际测试过程中，加权因子一般在0.1到0.4之间进行选取。
+  固定的$\alpha$值使得测试精确度容易受到外界环境与网络配置变化的影响；
+  \item
+  EWMA的窗口长度同样影响测试精度，静态网络中窗口长度一般为固定值(100ms或50ms)，当网络运行在高传输速率时，EWMA会遗漏掉PDR的瞬时下降。
+\end{enumerate}
+\end{block}
+\begin{figure}
+    \includegraphics[width=0.8\textwidth]{m_weighted.pdf}
+    \label{fixed_method}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{移动无线网络PDR测试方法}
+\begin{block}{DSWA:  $\hat{P_s}[k]=\beta P'[k]+(1-\beta)P[k]$}
+移动802.11n网络中的PDR测量，既要适应环境变化造成的网络状态瞬时波动，又要满足多种配置选择的要求。
+\begin{enumerate}
+  \item
+  通过滑动因子$\beta$选取上一次计算中靠近当前时刻的部分数据，降低PDR的瞬时变化对测试结果的影响；
+  \item
+  窗口长度$W$为事件驱动且与网络配置无关，而是根据当前网络状态变化，对测试精度与开销进行平衡。
+\end{enumerate}
+\end{block}
+  \begin{figure}
+    \includegraphics[width=0.8\textwidth]{m_sliding.pdf}
+    \label{sliding_method}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{移动无线网络PDR测试方法}
+\begin{block}{DSWA:  $\hat{P_s}[k]=\beta P'[k]+(1-\beta)P[k]$}
+\begin{figure}
+    \includegraphics[width=0.8\textwidth]{m_sliding.pdf}
+    \label{sliding_method}
+  \end{figure}
+\end{block}
+\scriptsize{
+\begin{columns}[c]
+　\column{4cm}
+\begin{equation}
+  \overline{W}_{(k,n)} = \frac{\sum_{i=1}^n{\omega_i \gamma_i} \eta_{i}}{\sum_{i=1}^n{\omega_i}}
+\label{W_s}
+\end{equation}
+\begin{equation}
+  \overline{\beta}_{(k,n)} = 1 + \frac{\sum_{i=1}^n{\omega_i \gamma_i}}{\sum_{i=1}^n{\omega_i}}
+\label{beta}
+\end{equation}
+　\column{6cm}
+\begin{spacing}{1.5}
+
+其中$\gamma_i$为PDR变化因子：
+
+  $\gamma_i = 1 + P[k-n+i] - P[k-n+i-1],~~ 1 \leq i \leq n$,
+
+$\omega_i$为加权因子：
+
+  $\omega_i = \frac{1}{2^{\lfloor\frac{n-i}{2}\rfloor}},~1\leq i \leq n$
+\end{spacing}
+\end{columns}
+}
+\end{frame}
+
+\begin{frame}{PDR-RSS模型刻画}
+%\scriptsize{
+\begin{enumerate}
+  \item \textcolor{green!50!black}{信道类型(HT20/HT40)：}HT40更容易受环境变化影响，相同情况下其接收门限更高，且过渡窗口长度更长；
+  \item \textcolor{green!50!black}{传输速率(MCS)：}接收门限随着传输速率的提高而增大，当MCS高于14时窗口长度大于10dB；
+  \item \textcolor{green!50!black}{保护间隔(LGI/SGI)：}在较低速率时基本没有区别，当MCS 高于14时SGI可以明显提升PDR，尤其对于HT40信道。
+\end{enumerate}
+%}
+\begin{figure}[!t]
+\setcounter{subfigure}{0}
+\centerline{
+    \subfloat[GI = 400ns]{\includegraphics[width=0.33\textwidth]{pdr_ch_sgi.pdf}
+    \label{pdr_sgi}
+}
+    \subfloat[GI = 800ns]{\includegraphics[width=0.33\textwidth]{pdr_ch_lgi.pdf}
+    \label{pdr_lgi}
+}
+    \subfloat[MCS 15]{\includegraphics[width=0.33\textwidth]{pdr_sgi.pdf}
+    \label{pdr_sgi_high}
+}
+}
+\label{pdr}
+\end{figure}
+\end{frame}
+
+\begin{frame}{在线PDR-RSS建模算法}
+\begin{columns}[c]
+　\column{5cm}
+\scriptsize{
+通过初始化获得原始的PDR-RSS模型，并储存于GradedT中，当参数发生变化时进行在线更新，对GradedT进行排序获得HT/GI/MCS索引。\\
+该索引反应了所有配置在当前状态下可获得的性能，可以作为PHY/MAC参数提供给上层应用。
+}
+\begin{figure}[!t]
+\includegraphics[width=1\textwidth]{gradedm.pdf}
+\end{figure}
+　\column{5cm}
+ \begin{figure}[!t]
+\includegraphics[width=1\textwidth]{gradedr.pdf}
+\end{figure}
+\scriptsize{
+当前配置下PDR$<$90\%或RSS$<\delta_+$，或者PDR和RSS持续稳定，但无法满足速率需求，根据ht-gi-mcs-table重新选择合适配置。
+}
+\end{columns}
+\end{frame}
+
+\begin{frame}{算法设计与实现}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=0.5\textwidth]{framework11n.pdf}
+\label{framework}
+\end{figure}
+\end{frame}
+
+\begin{frame}{测试算法精度及开销评估}
+  \begin{figure}
+    \includegraphics[width=1.0\textwidth]{table.png}
+    \label{table}
+  \end{figure}
+\scriptsize{
+总体的测试误差方面，DSWA明显低于EWMA；从累积分布函数可以看出，EWMA测量值倾向高于实际值；DSWA的窗口长度只跟网络状态有关，与传输速率无关，
+而对于传输速率从6.5Mbps到300Mbps，EWMA算法的窗口长度从$W=20$ 增加到$W=500$，当$W=500$时EWMA会遗漏掉PDR瞬时下降的信息。
+}
+\begin{figure}[!t]
+\setcounter{subfigure}{0}
+\centerline{
+    \subfloat[]{\includegraphics[width=0.2\textwidth]{cdf.pdf}
+\label{cdf}
+}
+\subfloat[]{\includegraphics[width=0.48\textwidth]{DSWA.pdf}
+\label{overhead}
+}
+}
+\label{DSWA_error}
+\end{figure}
+\end{frame}
+
+\begin{frame}{吞吐量提升}
+\begin{figure}[!t]
+\setcounter{subfigure}{0}
+\centerline{
+  \subfloat[1x3]{\includegraphics[width=0.33\textwidth]{route1.pdf}
+  \label{route1}
+}
+  \subfloat[2x3]{\includegraphics[width=0.33\textwidth]{route2.pdf}
+  \label{route2}
+}
+  \subfloat[3x3]{\includegraphics[width=0.33\textwidth]{route3.pdf}
+  \label{route3}
+}
+}
+\centerline{
+  \subfloat[1x3]{\includegraphics[width=0.33\textwidth]{goodput1.pdf}
+  \label{thruput1}
+}
+  \subfloat[2x3]{\includegraphics[width=0.33\textwidth]{goodput2.pdf}
+  \label{thruput2}
+}
+  \subfloat[3x3]{\includegraphics[width=0.33\textwidth]{goodput3.pdf}
+  \label{thruput3}
+}
+}
+\label{thruput}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}{论文与专利}
+
+\begin{thebibliography}{8}
+\tiny{
+\bibitem[Yongsen12dynamic]{aloft}
+Yongsen Ma, Xiaofeng Mao, Pengyuan Du, Chengnian Long, and Bo Li.
+\newblock Dynamic estimation of local mean power in GSM-R networks,
+\newblock under review of Springer Wireless Networks.
+\bibitem[Yongsen12online]{aloft}
+Yongsen Ma, Pengyuan Du, Xiaofeng Mao, and Chengnian Long.
+\newblock On-line and dynamic estimation of Rician fading channels in GSM-R networks.
+\newblock In WCSP’12, October 2012.
+\bibitem[Yongsen12dual]{aloft}
+Pengyuan Du, Lujin Luo, Yongsen Ma, and Chengnian Long.
+\newblock A dual-antenna based handover scheme for GSM-R network.
+\newblock In WCSP’12, October 2012.
+\bibitem[马永森GIS]{aloft}
+龙承念，马永森，茅晓峰.
+\newblock 结合GIS的GSM-R网络通信质量测试系统.
+\newblock CN102595445A. July 2012.
+\bibitem[马永森dynamic]{aloft}
+龙承念，马永森，茅晓峰.
+\newblock GSM-R网络接收信号强度动态测试算法.
+\newblock CN102571238A. July 2012.
+\bibitem[马永森Um]{aloft}
+龙承念，马永森，茅晓峰，王英杰，黎凌宇，骆理.
+\newblock GSM-R网络空中接口在线测试与预警系统.
+\newblock CN102438270A. May 2012.
+\bibitem[马永森software]{aloft}
+马永森，茅晓峰，龙承念.
+\newblock GSM-R网络空中接口测试系统v1.0.
+\newblock 2011SR076399. September 2011.
+}
+\end{thebibliography}
+
+%\nocite{Long1210:Dual}
+%%\nocite{Ma2011software}
+%\bibliographystyle{plain}
+%\bibliography{cv}
+
+\end{frame}
+
+\end{CJK*}
+\end{document}
+
+
