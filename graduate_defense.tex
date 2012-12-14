@@ -7,7 +7,7 @@
 %\usepackage{ctex}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{setspace}
+%\usepackage{setspace}
 \usepackage{graphicx}
 \usepackage{bm}
 \usepackage{textpos}
@@ -602,25 +602,40 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 \section{链路质量测试与建模}
 
 \subsection{问题描述}
+
 \begin{frame}{链路质量测试与建模}
-\begin{block}{802.11n的PHY/MAC新技术使得网络测试与配置更为复杂}
-传统的无线网络配置或基于主动探测，或基于固定PDR-RSS模型，在802.11n网络中无法满足多种配置及高传输速率的要求。
-如图\ref{MCS}所示，在所有被选择的HT/GI/MCS配置中，大约34\%落入过渡窗口中，甚至有8\%的配置使得PDR$<$10\%，这种情况在移动802.11n网络中更为明显。
+\begin{block}{传统测试方法}
+传统方法或基于主动探测，或基于固定PDR-RSS模型，如图~\ref{staticpdrrss}~所示。
+\begin{enumerate}
+  \item 移动网络传播环境与网络状态复杂多变，降低链路质量测试精度；
+  \item 802.11n采用多种物理层和链路层配置，增加链路质量测试开销；
+  \item MIMO-OFDM的多配置特性增加了PDR-RSS建模复杂性。
+\end{enumerate}
+移动802.11n网络的\alert{移动性}和\alert{多配置性}降低了链路质量的测试与预测精度，进一步影响网络的整体性能。
 \end{block}
 \begin{figure}[!t]
 \setcounter{subfigure}{0}
+\centering
+\includegraphics[width=0.5\textwidth]{modeling1.pdf}
+\label{staticpdrrss}
+\caption{静态PDR-RSS框架}
+\end{figure}
+\end{frame}
+
+\begin{frame}{链路质量测试与建模}
+\begin{figure}[!t]
 \centerline{
-    \subfloat[]{\includegraphics[width=0.42\textwidth]{modeling1.pdf}
-    \label{modeling1}
-}
-    \subfloat[]{\includegraphics[width=0.27\textwidth]{pdr.pdf}
+    \subfloat[PDR-RSS模型]{\includegraphics[width=0.48\textwidth]{pdr.pdf}
     \label{pdr}
 }
-    \subfloat[]{\includegraphics[width=0.25\textwidth]{MCS.pdf}
+    \subfloat[PDR-RSS过渡窗口]{\includegraphics[width=0.45\textwidth]{MCS.pdf}
     \label{MCS}
 }
 }
+\label{transitionexam}
+\caption{PDR-RSS模型过渡窗口}
 \end{figure}
+如图所示，在被选择的HT/GI/MCS配置中，34\%落入过渡窗口中，8\%的配置使得PDR$<$10\%，这种情况在移动802.11n网络中更为明显。
 \end{frame}
 
 \subsection{动态测试算法}
@@ -737,16 +752,16 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 \label{beta}
 \end{equation}
 　\column{6cm}
-\begin{spacing}{1.5}
-
-其中$\gamma_i$为PDR变化因子：
-
-  $\gamma_i = 1 + P[k-n+i] - P[k-n+i-1],~~ 1 \leq i \leq n$,
-
-$\omega_i$为加权因子：
-
-  $\omega_i = \frac{1}{2^{\lfloor\frac{n-i}{2}\rfloor}},~1\leq i \leq n$
-\end{spacing}
+%\begin{spacing}{1.5}
+%
+%其中$\gamma_i$为PDR变化因子：
+%
+%  $\gamma_i = 1 + P[k-n+i] - P[k-n+i-1],~~ 1 \leq i \leq n$,
+%
+%$\omega_i$为加权因子：
+%
+%  $\omega_i = \frac{1}{2^{\lfloor\frac{n-i}{2}\rfloor}},~1\leq i \leq n$
+%\end{spacing}
 \end{columns}
 }
 \end{frame}

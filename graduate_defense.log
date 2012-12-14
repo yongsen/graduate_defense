@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.19)  14 DEC 2012 17:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.19)  14 DEC 2012 20:07
 entering extended mode
 **graduate_defense.tex
 (D:\Cloud\Github\graduate_defense\graduate_defense.tex
@@ -1022,9 +1022,6 @@ Now handling font encoding C62 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\setspace\setspace.sty"
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
 ("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\tools\bm.sty"
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
@@ -1461,7 +1458,21 @@ Package biblatex Info: ... file 'english.lbx' found.
 ("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\biblatex\lbx\english.lbx"
 File: english.lbx 2011/11/13 v1.7 biblatex localization
 )
-No file graduate_defense.aux.
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+(D:\Cloud\Github\graduate_defense\graduate_defense.aux
+
+LaTeX Warning: Label `gsmr' multiply defined.
+
+
+LaTeX Warning: Label `sliding_method' multiply defined.
+
+
+LaTeX Warning: Label `pdr' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 197.
 LaTeX Font Info:    ... okay on input line 197.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 197.
@@ -1541,7 +1552,7 @@ LaTeX Font Info:    ... okay on input line 197.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 197.
 LaTeX Font Info:    ... okay on input line 197.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 197.
-("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\t1phv.fd"
+ ("C:\Program Files (x86)\CTEX\MiKTeX\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 *geometry* driver: auto-detecting
@@ -1844,18 +1855,6 @@ Package pdftex.def Info: SJTU.pdf used on input line 299.
  [8
 
  <D:/Cloud/Github/graduate_defense/dynamic.pdf>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 324.
-
-
-LaTeX Warning: Reference `time_vary' on page 9 undefined on input line 324.
-
-
-LaTeX Warning: Reference `cdf_rss' on page 9 undefined on input line 324.
-
-
-LaTeX Warning: Reference `pdrvary' on page 9 undefined on input line 324.
-
 <time.pdf, id=309, 433.62pt x 289.08pt>
 File: time.pdf Graphic file (type pdf)
  <use time.pdf>
@@ -1893,10 +1892,7 @@ Package pdftex.def Info: SJTU.pdf used on input line 328.
  [10
 
 ]
-
-LaTeX Warning: Reference `measurement' on page 11 undefined on input line 340.
-
-<measurement.pdf, id=365, 519.86751pt x 190.21063pt>
+<measurement.pdf, id=364, 519.86751pt x 190.21063pt>
 File: measurement.pdf Graphic file (type pdf)
  <use measurement.pdf>
 Package pdftex.def Info: measurement.pdf used on input line 340.
@@ -1909,12 +1905,8 @@ Package pdftex.def Info: SJTU.pdf used on input line 340.
  [11
 
  <D:/Cloud/Github/graduate_defense/measurement.pdf>]
-Underfull \hbox (badness 3965) in paragraph at lines 351--351
-[]\T1/phv/m/n/6 [7] []D. de la Vega et al. []   Gen-er-al-iza-tion of the Lee 
-Method for the Anal-y-sis of the Sig-nal Vari-abil-ity. [] In:
- []
-
 File: SJTU.pdf Graphic file (type pdf)
+
 <use SJTU.pdf>
 Package pdftex.def Info: SJTU.pdf used on input line 351.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
@@ -1937,14 +1929,9 @@ Package pdftex.def Info: SJTU.pdf used on input line 378.
 
 ]
 
-LaTeX Warning: Reference `online_measure' on page 15 undefined on input line 38
-9.
-
-
-
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/online.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<online.pdf, id=432, 661.20021pt x 265.24094pt>
+<online.pdf, id=431, 661.20021pt x 265.24094pt>
 File: online.pdf Graphic file (type pdf)
  <use online.pdf>
 Package pdftex.def Info: online.pdf used on input line 389.
@@ -1970,7 +1957,7 @@ Package pdftex.def Info: SJTU.pdf used on input line 411.
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/sigma11.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma11.pdf, id=489, 260.17201pt x 169.3507pt>
+<sigma11.pdf, id=488, 260.17201pt x 169.3507pt>
 File: sigma11.pdf Graphic file (type pdf)
  <use sigma11.pdf>
 Package pdftex.def Info: sigma11.pdf used on input line 453.
@@ -1979,7 +1966,7 @@ Package pdftex.def Info: sigma11.pdf used on input line 453.
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/sigma33.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma33.pdf, id=490, 260.17201pt x 169.3507pt>
+<sigma33.pdf, id=489, 260.17201pt x 169.3507pt>
 File: sigma33.pdf Graphic file (type pdf)
  <use sigma33.pdf>
 Package pdftex.def Info: sigma33.pdf used on input line 453.
@@ -1988,7 +1975,7 @@ Package pdftex.def Info: sigma33.pdf used on input line 453.
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/sigma55.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma55.pdf, id=491, 260.17201pt x 169.3507pt>
+<sigma55.pdf, id=490, 260.17201pt x 169.3507pt>
 File: sigma55.pdf Graphic file (type pdf)
  <use sigma55.pdf>
 Package pdftex.def Info: sigma55.pdf used on input line 453.
@@ -1997,7 +1984,7 @@ Package pdftex.def Info: sigma55.pdf used on input line 453.
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/sigma77.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma77.pdf, id=492, 260.17201pt x 169.3507pt>
+<sigma77.pdf, id=491, 260.17201pt x 169.3507pt>
 File: sigma77.pdf Graphic file (type pdf)
  <use sigma77.pdf>
 Package pdftex.def Info: sigma77.pdf used on input line 453.
@@ -2025,7 +2012,7 @@ se/sigma33.pdf> <D:/Cloud/Github/graduate_defense/sigma55.pdf> <D:/Cloud/Github
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/nu1.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<nu1.pdf, id=616, 260.17201pt x 169.3507pt>
+<nu1.pdf, id=615, 260.17201pt x 169.3507pt>
 File: nu1.pdf Graphic file (type pdf)
  <use nu1.pdf>
 Package pdftex.def Info: nu1.pdf used on input line 489.
@@ -2043,7 +2030,7 @@ Package pdftex.def Info: SJTU.pdf used on input line 489.
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/platform.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<platform.pdf, id=649, 1027.84pt x 770.88pt>
+<platform.pdf, id=648, 1027.84pt x 770.88pt>
 File: platform.pdf Graphic file (type pdf)
  <use platform.pdf>
 Package pdftex.def Info: platform.pdf used on input line 513.
@@ -2053,7 +2040,7 @@ Package pdftex.def Info: platform.pdf used on input line 513.
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/softwareint
 erface.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> 
 allowed
-<softwareinterface.pdf, id=650, 2746.26pt x 2059.695pt>
+<softwareinterface.pdf, id=649, 2746.26pt x 2059.695pt>
 File: softwareinterface.pdf Graphic file (type pdf)
 
 <use softwareinterface.pdf>
@@ -2082,18 +2069,18 @@ Overfull \vbox (1.53323pt too high) detected at line 578
 [20
 
 ]
-Underfull \hbox (badness 7595) in paragraph at lines 600--600
+Underfull \hbox (badness 1215) in paragraph at lines 600--600
 []\T1/phv/m/n/6 [9] []K.I. Itoh et al. []   Per-for-mance of hand-off al-go-ri
 thm based on dis-tance and RSSI mea-sure-ments. [] In:
  []
 
-<em.pdf, id=677, 361.35pt x 216.81pt>
+<em.pdf, id=676, 361.35pt x 216.81pt>
 File: em.pdf Graphic file (type pdf)
  <use em.pdf>
 Package pdftex.def Info: em.pdf used on input line 600.
 (pdftex.def)             Requested size: 144.54pt x 86.72246pt.
 
-<short.pdf, id=678, 361.35pt x 216.81pt>
+<short.pdf, id=677, 361.35pt x 216.81pt>
 File: short.pdf Graphic file (type pdf)
  <use short.pdf>
 Package pdftex.def Info: short.pdf used on input line 600.
@@ -2116,245 +2103,254 @@ Package pdftex.def Info: SJTU.pdf used on input line 604.
 
 ]
 
-LaTeX Warning: Reference `MCS' on page 23 undefined on input line 624.
-
-
-
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/modeling1.p
 df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<modeling1.pdf, id=724, 1040.2233pt x 478.39828pt>
+<modeling1.pdf, id=723, 1040.2233pt x 478.39828pt>
 File: modeling1.pdf Graphic file (type pdf)
  <use modeling1.pdf>
-Package pdftex.def Info: modeling1.pdf used on input line 624.
-(pdftex.def)             Requested size: 143.8222pt x 66.14313pt.
-
-<pdr.pdf, id=725, 289.08pt x 216.81pt>
-File: pdr.pdf Graphic file (type pdf)
- <use pdr.pdf>
-Package pdftex.def Info: pdr.pdf used on input line 624.
-(pdftex.def)             Requested size: 92.45898pt x 69.34422pt.
-
-<MCS.pdf, id=726, 361.35pt x 289.08pt>
-File: MCS.pdf Graphic file (type pdf)
- <use MCS.pdf>
-Package pdftex.def Info: MCS.pdf used on input line 624.
-(pdftex.def)             Requested size: 85.60883pt x 68.48517pt.
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 624.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [23
-
- <D:/Cloud/Github/graduate_defense/modeling1.pdf> <D:/Cloud/Github/graduate_def
-ense/pdr.pdf> <D:/Cloud/Github/graduate_defense/MCS.pdf>]
-(D:\Cloud\Github\graduate_defense\graduate_defense.toc)
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 626.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [24
-
-]
-<modeling.pdf, id=780, 1441.7233pt x 577.51556pt>
-File: modeling.pdf Graphic file (type pdf)
- <use modeling.pdf>
-Package pdftex.def Info: modeling.pdf used on input line 673.
-(pdftex.def)             Requested size: 142.26378pt x 56.97946pt.
+Package pdftex.def Info: modeling1.pdf used on input line 623.
+(pdftex.def)             Requested size: 171.21765pt x 78.74251pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 673.
+Package pdftex.def Info: SJTU.pdf used on input line 623.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+
+Overfull \vbox (13.49838pt too high) detected at line 623
+ []
+
+[23
+
+ <D:/Cloud/Github/graduate_defense/modeling1.pdf>]
+<pdr.pdf, id=744, 289.08pt x 216.81pt>
+File: pdr.pdf Graphic file (type pdf)
+ <use pdr.pdf>
+Package pdftex.def Info: pdr.pdf used on input line 639.
+(pdftex.def)             Requested size: 164.36748pt x 123.27531pt.
+
+<MCS.pdf, id=745, 361.35pt x 289.08pt>
+File: MCS.pdf Graphic file (type pdf)
+ <use MCS.pdf>
+Package pdftex.def Info: MCS.pdf used on input line 639.
+(pdftex.def)             Requested size: 154.09483pt x 123.2742pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 639.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+
+Overfull \vbox (11.69576pt too high) detected at line 639
+ []
+
+[24
+
+ <D:/Cloud/Github/graduate_defense/pdr.pdf> <D:/Cloud/Github/graduate_defense/M
+CS.pdf>] (D:\Cloud\Github\graduate_defense\graduate_defense.toc)
+File: SJTU.pdf Graphic file (type pdf)
+
+<use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 641.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [25
 
- <D:/Cloud/Github/graduate_defense/modeling.pdf>]
-File: SJTU.pdf Graphic file (type pdf)
+] <modeling.pdf, id=788, 1441.7233pt x 577.51556pt>
+File: modeling.pdf Graphic file (type pdf)
 
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 687.
+<use modeling.pdf>
+Package pdftex.def Info: modeling.pdf used on input line 688.
+(pdftex.def)             Requested size: 142.26378pt x 56.97946pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 688.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [26
 
-] <m_weighted.pdf, id=809, 361.35pt x 86.3225pt>
-File: m_weighted.pdf Graphic file (type pdf)
-
-<use m_weighted.pdf>
-Package pdftex.def Info: m_weighted.pdf used on input line 703.
-(pdftex.def)             Requested size: 273.9493pt x 65.44374pt.
+ <D:/Cloud/Github/graduate_defense/modeling.pdf>]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 703.
+Package pdftex.def Info: SJTU.pdf used on input line 702.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [27
 
- <D:/Cloud/Github/graduate_defense/m_weighted.pdf>] <m_sliding.pdf, id=826, 361
+] <m_weighted.pdf, id=816, 361.35pt x 86.3225pt>
+File: m_weighted.pdf Graphic file (type pdf)
+
+<use m_weighted.pdf>
+Package pdftex.def Info: m_weighted.pdf used on input line 718.
+(pdftex.def)             Requested size: 273.9493pt x 65.44374pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 718.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [28
+
+ <D:/Cloud/Github/graduate_defense/m_weighted.pdf>] <m_sliding.pdf, id=833, 361
 .35pt x 86.3225pt>
 File: m_sliding.pdf Graphic file (type pdf)
  <use m_sliding.pdf>
-Package pdftex.def Info: m_sliding.pdf used on input line 719.
+Package pdftex.def Info: m_sliding.pdf used on input line 734.
 (pdftex.def)             Requested size: 273.9493pt x 65.44374pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 719.
+Package pdftex.def Info: SJTU.pdf used on input line 734.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [28
+ [29
 
  <D:/Cloud/Github/graduate_defense/m_sliding.pdf>]
 File: m_sliding.pdf Graphic file (type pdf)
 
 <use m_sliding.pdf>
-Package pdftex.def Info: m_sliding.pdf used on input line 752.
+Package pdftex.def Info: m_sliding.pdf used on input line 767.
 (pdftex.def)             Requested size: 273.9493pt x 65.44374pt.
 pdfTeX warning (ext4): destination with the same identifier (name{sliding_metho
 d}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.752 \end{frame}
+l.767 \end{frame}
                  
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 752.
+Package pdftex.def Info: SJTU.pdf used on input line 767.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [29
+ [30
 
 ]
-<pdr_ch_sgi.pdf, id=853, 361.35pt x 216.81pt>
+<pdr_ch_sgi.pdf, id=859, 361.35pt x 216.81pt>
 File: pdr_ch_sgi.pdf Graphic file (type pdf)
  <use pdr_ch_sgi.pdf>
-Package pdftex.def Info: pdr_ch_sgi.pdf used on input line 777.
+Package pdftex.def Info: pdr_ch_sgi.pdf used on input line 792.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<pdr_ch_lgi.pdf, id=854, 361.35pt x 216.81pt>
+<pdr_ch_lgi.pdf, id=860, 361.35pt x 216.81pt>
 File: pdr_ch_lgi.pdf Graphic file (type pdf)
  <use pdr_ch_lgi.pdf>
-Package pdftex.def Info: pdr_ch_lgi.pdf used on input line 777.
+Package pdftex.def Info: pdr_ch_lgi.pdf used on input line 792.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<pdr_sgi.pdf, id=855, 361.35pt x 216.81pt>
+<pdr_sgi.pdf, id=861, 361.35pt x 216.81pt>
 File: pdr_sgi.pdf Graphic file (type pdf)
  <use pdr_sgi.pdf>
-Package pdftex.def Info: pdr_sgi.pdf used on input line 777.
+Package pdftex.def Info: pdr_sgi.pdf used on input line 792.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 pdfTeX warning (ext4): destination with the same identifier (name{pdr}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.777 \end{frame}
+l.792 \end{frame}
                  
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 777.
+Package pdftex.def Info: SJTU.pdf used on input line 792.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [30
+ [31
 
  <D:/Cloud/Github/graduate_defense/pdr_ch_sgi.pdf> <D:/Cloud/Github/graduate_de
 fense/pdr_ch_lgi.pdf> <D:/Cloud/Github/graduate_defense/pdr_sgi.pdf>]
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/gradedm.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<gradedm.pdf, id=890, 876.3942pt x 522.52214pt>
+<gradedm.pdf, id=897, 876.3942pt x 522.52214pt>
 File: gradedm.pdf Graphic file (type pdf)
  <use gradedm.pdf>
-Package pdftex.def Info: gradedm.pdf used on input line 797.
+Package pdftex.def Info: gradedm.pdf used on input line 812.
 (pdftex.def)             Requested size: 142.26378pt x 84.81714pt.
 
 
 pdfTeX warning: pdflatex.exe (file D:/Cloud/Github/graduate_defense/gradedr.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<gradedr.pdf, id=891, 585.01563pt x 510.47714pt>
+<gradedr.pdf, id=898, 585.01563pt x 510.47714pt>
 File: gradedr.pdf Graphic file (type pdf)
  <use gradedr.pdf>
-Package pdftex.def Info: gradedr.pdf used on input line 797.
+Package pdftex.def Info: gradedr.pdf used on input line 812.
 (pdftex.def)             Requested size: 142.26378pt x 124.13718pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 797.
+Package pdftex.def Info: SJTU.pdf used on input line 812.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [31
+ [32
 
  <D:/Cloud/Github/graduate_defense/gradedm.pdf> <D:/Cloud/Github/graduate_defen
 se/gradedr.pdf>]
-<framework11n.pdf, id=906, 361.35pt x 216.81pt>
+<framework11n.pdf, id=912, 361.35pt x 216.81pt>
 File: framework11n.pdf Graphic file (type pdf)
  <use framework11n.pdf>
-Package pdftex.def Info: framework11n.pdf used on input line 805.
+Package pdftex.def Info: framework11n.pdf used on input line 820.
 (pdftex.def)             Requested size: 171.21765pt x 102.73108pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 805.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [32
-
- <D:/Cloud/Github/graduate_defense/framework11n.pdf>]
-<table.png, id=936, 899.61093pt x 88.83188pt>
-File: table.png Graphic file (type png)
- <use table.png>
-Package pdftex.def Info: table.png used on input line 828.
-(pdftex.def)             Requested size: 342.43532pt x 33.81339pt.
-
-<cdf.pdf, id=938, 216.81pt x 310.15875pt>
-File: cdf.pdf Graphic file (type pdf)
- <use cdf.pdf>
-Package pdftex.def Info: cdf.pdf used on input line 828.
-(pdftex.def)             Requested size: 68.48601pt x 97.975pt.
-
-<DSWA.pdf, id=939, 361.35pt x 216.81pt>
-File: DSWA.pdf Graphic file (type pdf)
- <use DSWA.pdf>
-Package pdftex.def Info: DSWA.pdf used on input line 828.
-(pdftex.def)             Requested size: 164.36748pt x 98.61893pt.
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 828.
+Package pdftex.def Info: SJTU.pdf used on input line 820.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [33
 
+ <D:/Cloud/Github/graduate_defense/framework11n.pdf>]
+<table.png, id=942, 899.61093pt x 88.83188pt>
+File: table.png Graphic file (type png)
+ <use table.png>
+Package pdftex.def Info: table.png used on input line 843.
+(pdftex.def)             Requested size: 342.43532pt x 33.81339pt.
+
+<cdf.pdf, id=944, 216.81pt x 310.15875pt>
+File: cdf.pdf Graphic file (type pdf)
+ <use cdf.pdf>
+Package pdftex.def Info: cdf.pdf used on input line 843.
+(pdftex.def)             Requested size: 68.48601pt x 97.975pt.
+
+<DSWA.pdf, id=945, 361.35pt x 216.81pt>
+File: DSWA.pdf Graphic file (type pdf)
+ <use DSWA.pdf>
+Package pdftex.def Info: DSWA.pdf used on input line 843.
+(pdftex.def)             Requested size: 164.36748pt x 98.61893pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 843.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [34
+
  <D:/Cloud/Github/graduate_defense/table.png> <D:/Cloud/Github/graduate_defense
 /cdf.pdf> <D:/Cloud/Github/graduate_defense/DSWA.pdf>]
-<route1.pdf, id=966, 361.35pt x 216.81pt>
+<route1.pdf, id=973, 361.35pt x 216.81pt>
 File: route1.pdf Graphic file (type pdf)
  <use route1.pdf>
-Package pdftex.def Info: route1.pdf used on input line 857.
+Package pdftex.def Info: route1.pdf used on input line 872.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<route2.pdf, id=967, 361.35pt x 216.81pt>
+<route2.pdf, id=974, 361.35pt x 216.81pt>
 File: route2.pdf Graphic file (type pdf)
  <use route2.pdf>
-Package pdftex.def Info: route2.pdf used on input line 857.
+Package pdftex.def Info: route2.pdf used on input line 872.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<route3.pdf, id=968, 361.35pt x 216.81pt>
+<route3.pdf, id=975, 361.35pt x 216.81pt>
 File: route3.pdf Graphic file (type pdf)
  <use route3.pdf>
-Package pdftex.def Info: route3.pdf used on input line 857.
+Package pdftex.def Info: route3.pdf used on input line 872.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<goodput1.pdf, id=969, 361.35pt x 216.81pt>
+<goodput1.pdf, id=976, 361.35pt x 216.81pt>
 File: goodput1.pdf Graphic file (type pdf)
  <use goodput1.pdf>
-Package pdftex.def Info: goodput1.pdf used on input line 857.
+Package pdftex.def Info: goodput1.pdf used on input line 872.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<goodput2.pdf, id=970, 361.35pt x 216.81pt>
+<goodput2.pdf, id=977, 361.35pt x 216.81pt>
 File: goodput2.pdf Graphic file (type pdf)
  <use goodput2.pdf>
-Package pdftex.def Info: goodput2.pdf used on input line 857.
+Package pdftex.def Info: goodput2.pdf used on input line 872.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<goodput3.pdf, id=971, 361.35pt x 216.81pt>
+<goodput3.pdf, id=978, 361.35pt x 216.81pt>
 File: goodput3.pdf Graphic file (type pdf)
  <use goodput3.pdf>
-Package pdftex.def Info: goodput3.pdf used on input line 857.
+Package pdftex.def Info: goodput3.pdf used on input line 872.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 857.
+Package pdftex.def Info: SJTU.pdf used on input line 872.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-[34
+[35
 
  <D:/Cloud/Github/graduate_defense/route1.pdf> <D:/Cloud/Github/graduate_defens
 e/route2.pdf> <D:/Cloud/Github/graduate_defense/route3.pdf> <D:/Cloud/Github/gr
@@ -2362,38 +2358,35 @@ aduate_defense/goodput1.pdf> <D:/Cloud/Github/graduate_defense/goodput2.pdf> <D
 :/Cloud/Github/graduate_defense/goodput3.pdf>]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 901.
+Package pdftex.def Info: SJTU.pdf used on input line 916.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [35
+ [36
 
  <C:/Program Files (x86)/CTEX/MiKTeX/tex/latex/beamer/base/art/beamericonarticl
 e.pdf>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 904.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 904.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
 
 (D:\Cloud\Github\graduate_defense\graduate_defense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 904.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 904.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 919.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 919.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'graduate_defense.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27610 strings out of 495354
- 501127 string characters out of 3182738
- 692135 words of memory out of 3000000
- 29900 multiletter control sequences out of 15000+200000
- 117217 words of font info for 260 fonts, out of 3000000 for 9000
+ 27593 strings out of 495354
+ 500823 string characters out of 3182738
+ 691768 words of memory out of 3000000
+ 29884 multiletter control sequences out of 15000+200000
+ 114127 words of font info for 257 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,23n,65p,905b,2369s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,23n,65p,905b,2377s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{cite.0@itoh2002performance} has been referenced b
 ut does not exist, replaced by a fixed one
 
@@ -2443,14 +2436,12 @@ rogram Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Pro
 gram Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Progr
 am Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program 
-Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fi
-les (x86)/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x8
-6)/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/CTEX
-/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on graduate_defense.pdf (35 pages, 8745969 bytes).
+m Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
+Files (x86)/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (
+x86)/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on graduate_defense.pdf (36 pages, 8738795 bytes).
 PDF statistics:
  1222 PDF objects out of 1440 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
+ 143 named destinations out of 1000 (max. 500000)
  304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
