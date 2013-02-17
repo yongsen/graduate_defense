@@ -16,6 +16,39 @@
   {}
 \endgroup
 
+\entry{Akyildiz06nextgeneration/dynamic}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Akyildiz}{A.}%
+     {Ian~F.}{I.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Won-Yeol}{W.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vuran}{V.}%
+     {Mehmet~C.}{M.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mohanty}{M.}%
+     {Shantidev}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AIF+1}
+  \strng{fullhash}{AIFLWYVMCMS1}
+  \field{pages}{2127\bibrangedash 2159}
+  \field{title}{NeXt generation/dynamic spectrum access/cognitive Radio
+  Wireless Networks: A Survey}
+  \field{volume}{50}
+  \field{journaltitle}{COMPUTER NETWORKS JOURNAL (ELSEVIER)}
+  \field{year}{2006}
+\endentry
+
 \entry{baldini2010early}{article}{}
   \name{author}{10}{}{%
     {{}%
@@ -79,62 +112,6 @@
   \field{journaltitle}{International Journal of Critical Infrastructure
   Protection}
   \field{year}{2010}
-\endentry
-
-\entry{perahia2008next}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Perahia}{P.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Stacey}{S.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{PE+1}
-  \strng{fullhash}{PESR1}
-  \field{pages}{02}
-  \field{title}{{Next Generation Wireless LANs}: throughput, robustness and
-  reliability in 802.11n}
-  \field{volume}{67}
-  \field{journaltitle}{Recherche}
-  \field{year}{2008}
-\endentry
-
-\entry{Akyildiz06nextgeneration/dynamic}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Akyildiz}{A.}%
-     {Ian~F.}{I.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lee}{L.}%
-     {Won-Yeol}{W.-Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Vuran}{V.}%
-     {Mehmet~C.}{M.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Mohanty}{M.}%
-     {Shantidev}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{AIF+1}
-  \strng{fullhash}{AIFLWYVMCMS1}
-  \field{pages}{2127\bibrangedash 2159}
-  \field{title}{NeXt generation/dynamic spectrum access/cognitive Radio
-  Wireless Networks: A Survey}
-  \field{volume}{50}
-  \field{journaltitle}{COMPUTER NETWORKS JOURNAL (ELSEVIER)}
-  \field{year}{2006}
 \endentry
 
 \entry{lee1985estimate}{article}{}
@@ -335,6 +312,70 @@
   measurements}
   \field{journaltitle}{IEEE Trans. on Vehicular Technology}
   \field{year}{2002}
+\endentry
+
+\entry{perahia2008next}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Perahia}{P.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stacey}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PE+1}
+  \strng{fullhash}{PESR1}
+  \field{pages}{02}
+  \field{title}{{Next Generation Wireless LANs}: throughput, robustness and
+  reliability in 802.11n}
+  \field{volume}{67}
+  \field{journaltitle}{Recherche}
+  \field{year}{2008}
+\endentry
+
+\entry{EWMAChart}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {NIST/SEMATECH}{N.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{N1}
+  \strng{fullhash}{N1}
+  \field{chapter}{6.3.2.4. EWMA Control Charts}
+  \field{howpublished}{\url{www.itl.nist.gov/div898/handbook}}
+  \field{title}{e-Handbook of Statistical Methods}
+  \verb{url}
+  \verb www.itl.nist.gov/div898/handbook
+  \endverb
+  \field{year}{2012}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{marzetta1995algorithm}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Marzetta}{M.}%
+     {T.L.}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{MT1}
+  \strng{fullhash}{MT1}
+  \field{booktitle}{International Conference on Acoustics, Speech, and Signal
+  Processing, 1995.}
+  \field{pages}{3651\bibrangedash 3654}
+  \field{title}{EM algorithm for estimating the parameters of a multivariate
+  complex Rician density for polarimetric SAR}
+  \field{year}{1995}
 \endentry
 
 \lossort
