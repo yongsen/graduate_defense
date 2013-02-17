@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.29)  17 FEB 2013 15:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.29)  17 FEB 2013 18:18
 entering extended mode
 **graduate_defense.tex
 (E:\Github\graduate_defense\graduate_defense.tex
@@ -2274,16 +2274,16 @@ Package pdftex.def Info: SJTU.pdf used on input line 1043.
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <25> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 1088.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1054.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1088.
+Package pdftex.def Info: SJTU.pdf used on input line 1054.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [45
 
 ]
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 1118.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 1084.
 
  ("C:\Program Files\CTEX\MiKTeX\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -2291,16 +2291,16 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1118.
+Package pdftex.def Info: SJTU.pdf used on input line 1084.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [46
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1141.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1107.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1141.
+Package pdftex.def Info: SJTU.pdf used on input line 1107.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [47
 
@@ -2308,14 +2308,14 @@ Package pdftex.def Info: SJTU.pdf used on input line 1141.
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1163 \end{frame}
+l.1129 \end{frame}
                   
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1163.
+Package pdftex.def Info: SJTU.pdf used on input line 1129.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (4.30394pt too high) detected at line 1163
+Overfull \vbox (4.30394pt too high) detected at line 1129
  []
 
 [48
@@ -2324,11 +2324,11 @@ Overfull \vbox (4.30394pt too high) detected at line 1163
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1188 \end{frame}
+l.1154 \end{frame}
                   
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1188.
+Package pdftex.def Info: SJTU.pdf used on input line 1154.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [49
 
@@ -2336,7 +2336,7 @@ Package pdftex.def Info: SJTU.pdf used on input line 1188.
 <umframework.pdf, id=1290, 521.01137pt x 469.00218pt>
 File: umframework.pdf Graphic file (type pdf)
  <use umframework.pdf>
-Package pdftex.def Info: umframework.pdf used on input line 1207.
+Package pdftex.def Info: umframework.pdf used on input line 1173.
 (pdftex.def)             Requested size: 104.79128pt x 94.32834pt.
 
 
@@ -2347,20 +2347,20 @@ pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: softwarefunction.pdf Graphic file (type pdf)
 
 <use softwarefunction.pdf>
-Package pdftex.def Info: softwarefunction.pdf used on input line 1207.
+Package pdftex.def Info: softwarefunction.pdf used on input line 1173.
 (pdftex.def)             Requested size: 130.08621pt x 74.5246pt.
 pdfTeX warning (ext4): destination with the same identifier (name{framework}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1207 \end{frame}
+l.1173 \end{frame}
                   
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1207.
+Package pdftex.def Info: SJTU.pdf used on input line 1173.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (12.19325pt too high) detected at line 1207
+Overfull \vbox (12.19325pt too high) detected at line 1173
  []
 
 [50
@@ -2373,7 +2373,7 @@ pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/dataprocess.pdf):
 <dataprocess.pdf, id=1397, 382.26312pt x 305.26949pt>
 File: dataprocess.pdf Graphic file (type pdf)
  <use dataprocess.pdf>
-Package pdftex.def Info: dataprocess.pdf used on input line 1226.
+Package pdftex.def Info: dataprocess.pdf used on input line 1191.
 (pdftex.def)             Requested size: 115.63243pt x 92.3408pt.
 
 
@@ -2382,15 +2382,15 @@ F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 <function.pdf, id=1398, 528.52957pt x 551.18422pt>
 File: function.pdf Graphic file (type pdf)
  <use function.pdf>
-Package pdftex.def Info: function.pdf used on input line 1226.
+Package pdftex.def Info: function.pdf used on input line 1191.
 (pdftex.def)             Requested size: 115.63243pt x 120.58806pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1226.
+Package pdftex.def Info: SJTU.pdf used on input line 1191.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (18.61723pt too high) detected at line 1226
+Overfull \vbox (18.61723pt too high) detected at line 1191
  []
 
 [51
@@ -2398,13 +2398,13 @@ Overfull \vbox (18.61723pt too high) detected at line 1226
  <E:/Github/graduate_defense/dataprocess.pdf> <E:/Github/graduate_defense/funct
 ion.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 1262.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1227.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1262.
+Package pdftex.def Info: SJTU.pdf used on input line 1227.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (10.83961pt too high) detected at line 1262
+Overfull \vbox (10.83961pt too high) detected at line 1227
  []
 
 [52
@@ -2412,7 +2412,7 @@ Overfull \vbox (10.83961pt too high) detected at line 1262
 ]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1304.
+Package pdftex.def Info: SJTU.pdf used on input line 1269.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [53
 
@@ -2421,20 +2421,20 @@ een already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.1304 \end{frame}
+l.1269 \end{frame}
                   ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 1339.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1299.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1339.
+Package pdftex.def Info: SJTU.pdf used on input line 1299.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [54
 
 ]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1374.
+Package pdftex.def Info: SJTU.pdf used on input line 1328.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [55
 
@@ -2442,12 +2442,12 @@ Package pdftex.def Info: SJTU.pdf used on input line 1374.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1377.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1377.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1367.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1367.
 
 (E:\Github\graduate_defense\graduate_defense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1377.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1377.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1367.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1367.
 
 
 LaTeX Warning: There were multiply-defined labels.
