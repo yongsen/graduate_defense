@@ -148,8 +148,8 @@
 %% \renewcommand*{\footnoterule}{\kern 6pt}
 %\makeatother
 
-\title[移动无线网络信道测试与应用] % (optional, use only with long paper titles)
-{移动无线网络信道测试与应用}
+\title[移动无线网络信道在线测试与应用] % (optional, use only with long paper titles)
+{移动无线网络信道在线测试与应用}
 
 %\subtitle
 %{研究现状}
@@ -158,7 +158,7 @@
 {
 \small
 姓名：马~永森 \\
-班级：B1003292 \\
+%班级：B1003292 \\
 学号：1100329074
 }
 %{F.~Author\inst{1} \and S.~Another\inst{2}}
@@ -168,17 +168,18 @@
 
 \institute[上海交通大学] % (optional, but mostly needed)
 { \small
-  指导教师：龙~承念\quad 教授
+  指导教师：龙~承念\quad 教授 \\
+  专业：控制科学与工程
 %   姓名：\quad 马~永森 \\
 %   班级：\quad B1003292 \\
-%   学号：\quad 1100329074 \\   
+%   学号：\quad 1100329074 \\
 %   指导教师：\quad 龙承念~教授
 }
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
 \date[2013/02/20] % (optional, should be abbreviation of conference name)
-{  
+{
   %\begin{figure}
 %  \centering
 %  \includegraphics[width=1.2in]{name.pdf}
@@ -247,47 +248,23 @@
 
 \section{背景介绍}
 \subsection{移动无线网络}
-\begin{frame}{无线网络发展趋势}
+\begin{frame}{移动无线网络}
 \begin{columns}[c]
   \column{2in}
   \begin{figure}
-    \includegraphics[width=2.0in]{connectivity.pdf}
+    \includegraphics[width=2.0in]{MOT_WNS.pdf}
    \label{connectivity}
   \end{figure}
   \column{2in}
   \begin{figure}
-    \includegraphics[width=2.0in]{MOT_WNS.pdf}
+    \includegraphics[width=2.0in]{WirelessData.pdf}
   \label{MOT_WNS}
   \end{figure}
 \end{columns}
 \begin{itemize}
-  \item 无线网络发展迅速，几乎在所有\alert{“智能”}系统中都能够找到它的身影，比如智能家居、智能楼宇、智能医疗、智能城市、智慧地球。
-  \item 约59\%美国成年人通过Wi-Fi/3G上网，如LTE/WiMax/4G等技术正处于快速发展中，同时无线局域网络仍然占据一定份额，包括目前研究较多的802.11s/p，开始投入应用的802.11ac/ad，以及目前应用广泛的802.11n。
+  \item 无线网络发展迅速，几乎在所有\alert{“智能”}系统中都能够找到它的应用，比如智能家居、智能楼宇、智能医疗、智能城市、智慧地球。
+  \item 无线网络业务需求呈持续增加趋势，同时造成无线频谱资源的过度拥挤。尤其对于移动无线网络而言，其亟需解决的问题是：如何在保证网络\alert{可靠性}的基础上，尽量提高其\alert{传输性能}及\alert{频谱利用效率}？
 \end{itemize}
-\end{frame}
-
-\begin{frame}{无线网络发展趋势}
-  \begin{columns}[c]
-  \column{2in}
-  \begin{figure}
-    \includegraphics[width=2.0in]{Infonetics.pdf}
-   \label{connectivity}
-  \end{figure}
-  \column{2in}
-  \begin{figure}
-    \includegraphics[width=1.8in]{WirelessData.pdf}
-  \label{MOT_WNS}
-  \end{figure}
-\end{columns}
-
-\begin{columns}[c]
-  \column{3.5in}
-  无线网络业务需求呈持续增加的趋势，同时造成无线频谱资源的过度拥挤。尤其对于移动无线网络而言，其亟需解决的问题是：如何在保证网络\alert{可靠性}的基础上，尽量提高其\alert{传输性能及频谱利用效率}？
-  \column{1in}
-\begin{figure}
-    \includegraphics[width=1.0in]{whyblue.pdf}
-  \end{figure}
-\end{columns}
 \end{frame}
 
 \subsection{通信质量测试}
@@ -297,12 +274,50 @@
   \label{dynamic}
   %\caption{xG网络协议结构}
   \end{figure}
-
-\alert{信道状态}与\alert{链路质量}既是衡量无线网络性能的重要指标，同时在网络决策过程中发挥重要作用\sfcite{Akyildiz06nextgeneration/dynamic}，因此关键问题是\alert{如何准确高效地对信道状态与链路质量进行实时测量}，从而实现可靠性与传输性能的有效平衡。
+\alert{信道状态}与\alert{链路质量}既是衡量无线网络性能的重要指标，同时在网络决策过程中发挥重要作用\sfcite{Akyildiz06nextgeneration/dynamic}，因此关键问题是如何准确高效地对信道状态与链路质量进行\alert{实时测量}，从而实现可靠性与传输性能的有效平衡。
 \end{frame}
 
-\begin{frame}{通信质量测试}
-\begin{block}{移动无线网络时变性与位置差异性}
+\begin{frame}{通信质量测试-高速移动网络}
+\begin{itemize}
+  \item 高速铁路的首要问题是保证\alert{安全性}，主要由GSM-R网络来实现；
+  \item 对GSM-R网络尤其是无线接口进行\alert{实时测试}\sfcite{baldini2010early}，以保证安全运行。
+\end{itemize}
+\begin{figure}
+\centerline{
+    \subfloat[业务模型]{\includegraphics[width=1.8in]{gsmrservice.pdf}
+    \label{gsmrservice}
+}
+    \subfloat[网络架构]{\includegraphics[width=2.7in]{gsmr.pdf}
+    \label{gsmr}
+}
+}
+\caption{GSM-R网络业务模型与网络架构}
+\label{gsmr}
+\end{figure}
+\end{frame}
+
+\begin{frame}{通信质量测试-无线局域网络}
+802.11n网络采用MIMO-OFDM及其相关技术\sfcite{perahia2008next}，从而有效地提升网络的\alert{传输性能}，保证更高的吞吐量与覆盖范围。
+\begin{block}{PHY层}
+    \begin{itemize}
+    \item
+    \textcolor{green!50!black}{MIMO：}采用多天线及空间复用技术，提升PHY吞吐量及覆盖范围，同时提高系统稳定性；
+    \item
+    \textcolor{green!50!black}{HT20/HT40：}采用灵活信道技术，更好地解决载波侦听、隐藏/暴露终端等问题。
+    \end{itemize}
+\end{block}
+\begin{block}{MAC层}
+    \begin{itemize}
+    \item
+    \textcolor{green!50!black}{A-MPDU：}帧聚合技术即多个帧共用一个MAC头部，同时降低ACK发送频率，降低发送/接收开销，提高传输效率；
+    \item
+    \textcolor{green!50!black}{SGI：}400ns保护间隔，降低时间开销，提高MAC吞吐量。
+    \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{通信质量测试-时空特性}
+\begin{block}{移动无线网络的时变性与位置差异性}
 \begin{enumerate}
   \item 接收信号强度与传输成功率受\alert{无线传播环境}影响，如图~\ref{time_vary}~所示；
   \item 接收信号强度具有\alert{位置差异性}，如图~\ref{cdf_rss}~所示；
@@ -326,50 +341,28 @@
 \end{figure}
 \end{frame}
 
-\begin{frame}{移动无线网络信道测试与应用}
+\begin{frame}{通信质量测试-论文结构}
 本文主要针对移动无线网络的时间与空间特性，分别提出信道状态与链路质量的动态测试算法，以降低测试开销并提高测试精度，进而有效提升网络的传输性能。
 \begin{block}{信道状态采样与估计}
 \begin{enumerate}
-  \item 根据GSM-R网络无线传播环境的特点，根据当前网络状态进行动态采样，同时完成衰落参数估计与采样频率计算；
-  \item 在保证测试精度的前提下降低测试开销，在高速移动条件下降低信道采样对数据传输的不利影响。
+  \item 根据高速移动网络无线传播环境的特点，根据当前网络状态进行\alert{动态采样}，同时完成衰落参数估计与采样频率计算；
+  \item 在保证测试精度的前提下降低测试开销，在\alert{高速移动}条件下降低信道采样对数据传输的不利影响。
 \end{enumerate}
 \end{block}
 
 \begin{block}{链路质量测试与建模}
 \begin{enumerate}
-  \item 通过动态滑动平均算法对传输成功率进行实时测量，根据网络状态实现链路质量测试精度与开销的有效平衡；
-  \item 设计并实现链路质量在线建模框架，同时利用物理层与链路层指标实现移动MIMO-OFDM网络的速率适配。
+  \item 通过\alert{动态滑动平均算法}对传输成功率进行实时测量，根据网络状态实现链路质量测试精度与开销的有效平衡；
+  \item 设计并实现链路质量\alert{在线建模框架}，同时利用物理层与链路层指标实现移动MIMO-OFDM网络的速率适配。
 \end{enumerate}
 \end{block}
 \end{frame}
 
 \section{信道状态采样与估计}
 
-\subsection{高速移动网络}
-
-\begin{frame}{可靠性-高速移动网络}
-\begin{itemize}
-  \item 高速铁路的首要问题是保证\alert{安全性}，主要由GSM-R网络来实现；
-  \item 对GSM-R网络尤其是无线接口进行\alert{实时测试}\sfcite{baldini2010early}，以保证安全运行。
-\end{itemize}
-\begin{figure}
-\centerline{
-    \subfloat[业务模型]{\includegraphics[width=1.6in]{gsmrservice.pdf}
-    \label{gsmrservice}
-}
-\hfil
-    \subfloat[网络架构]{\includegraphics[width=2.4in]{gsmr.pdf}
-    \label{gsmr}
-}
-}
-\caption{GSM-R网络业务模型与网络架构}
-\label{gsmr}
-\end{figure}
-\end{frame}
-
 \subsection{无线传播测试}
 
-\begin{frame}{无线传播测试}
+\begin{frame}{无线传播测试-现有工作}
 \begin{block}{测试过程}
 移动网络的无线传播测量过程如图~\ref{measurement}~所示，主要分为本地均值估计、无线传播预测及模型修正。
 \end{block}
@@ -377,27 +370,27 @@
 %\column{2.5in}
 \begin{figure}
 \centering
-\includegraphics[width=4in]{measurement.pdf}
+\includegraphics[width=3in]{measurement.pdf}
 \caption{移动网络无线传播测量过程}
 \label{measurement}
 \end{figure}
 %\column{2.5in}
-%
+由于GSM-R网络对安全性具有严格要求，现有测试方法均采用高频采样，成本较高且仅适用于离线测试，无法应用于在线测试及资源调度。
 %\end{columns}
 \end{frame}
 
-\begin{frame}{无线传播测试}
+\begin{frame}{无线传播测试-现有工作}
 \begin{scriptsize}
 \begin{block}{\footnotesize{传统方法}}
 \begin{itemize}
-  \item Lee氏采样算法最先提出移动网络接收信号强度的本地均值估计问题，基于瑞利衰落分析了统计区间与采样点数的关系；\sfcite{lee1985estimate}
-  \item 其他基于置信区间或最大似然估计的方法，同样在瑞利衰落信道下进行分析；\sfcite{Ai2009wcsp}
-  \item 传统基于莱斯衰落信道的采样算法测试开销太高，无法直接应用于GSM-R网络；\sfcite{tepedelenlio?lu2001estimation}
-  \item 通用Lee氏采样算法不需要衰落信道的分布函数，但最优采样参数需要通过大量数据分析得到，只适用于离线测试。\sfcite{Vega2009}
+  \item Lee氏采样算法最先提出移动网络接收信号强度的本地均值估计问题，基于\textcolor{green!50!black}{瑞利衰落}分析了统计区间与采样点数的关系；\sfcite{lee1985estimate}
+  \item 其他基于置信区间或最大似然估计的方法，同样在\textcolor{green!50!black}{瑞利衰落}信道下进行分析；\sfcite{Ai2009wcsp}
+  \item 传统基于莱斯衰落信道的采样算法\textcolor{green!50!black}{测试开销}太高，无法直接应用于GSM-R网络；\sfcite{tepedelenlio?lu2001estimation}
+  \item 通用Lee氏采样算法不需要衰落信道的分布函数，但最优采样参数需要通过大量数据分析得到，同样具有较高的\textcolor{green!50!black}{测试开销}，只适用于离线测试。\sfcite{Vega2009}
 \end{itemize}
 \end{block}
 \end{scriptsize}
-\begin{exampleblock}{\footnotesize{测试开销：F=900MHz，T=480ms，V=300km/h}}
+\begin{exampleblock}{\footnotesize{测试开销：F=900MHz，V=300km/h；T=480ms，Measure/Data=1/25}}
 \begin{scriptsize}
 \begin{itemize}
   \item Lee氏采样算法的统计区间为14.4m或172ms，需要2.8倍的测量时隙，吞吐量\alert{降低7.2\%}；
@@ -408,7 +401,7 @@
 \end{frame}
 
 \subsection{动态采样与估计}
-\begin{frame}{动态采样与估计}
+\begin{frame}{动态采样与估计-算法设计}
 \begin{block}{测试过程}
 莱斯衰落信道的接收信号强度动态测试过程如图~\ref{online_measure}~所示，主要通过参数估计确定\textcolor{green!50!black}{统计区间长度}和\textcolor{green!50!black}{采样点数目}。
 \begin{enumerate}
@@ -424,7 +417,7 @@
 \end{figure}
 \end{frame}
 
-\begin{frame}{动态采样与估计}
+\begin{frame}{动态采样与估计-算法设计}
 \begin{block}{1、统计区间长度}
 \scriptsize{
 \begin{equation}
@@ -446,7 +439,7 @@ P_e = 10 \log_{10}\left(\frac{\hat{s}+\sigma_{\hat{s}}}{\hat{s}-\sigma_{\hat{s}}
 \end{block}
 \end{frame}
 
-\begin{frame}{动态采样与估计}
+\begin{frame}{动态采样与估计-算法设计}
 \begin{columns}[c]
 \column{3in}
 \begin{figure}
@@ -491,7 +484,7 @@ $2L=f_{2L}(\lambda;\nu,\sigma)$
 \end{columns}
 \end{frame}
 
-\begin{frame}{动态采样与估计}
+\begin{frame}{动态采样与估计-算法设计}
 \begin{columns}[c]
 \column{2.6in}
 \begin{figure}
@@ -531,11 +524,14 @@ $N=f_{N}(\lambda;\nu,\sigma)$
 \end{block}
 \end{frame}
 
-\begin{frame}{动态采样与估计}
-\begin{block}{测试平台}
+\begin{frame}{动态采样与估计-性能评估}
+\begin{block}{\footnotesize{测试平台}}
 \begin{itemize}
-  \item 硬件平台：CPU：CME137686LX-W；GSM-R：COM16155RER
-  \item 软件平台：系统：Windows XP/CE/Mobile；平台：Microsoft .NET Compact Framework；语言：C\#
+\begin{scriptsize}
+  \item 硬件平台：中心处理器CPU：CME137686LX-W；GSM-R无线通信模块：COM16155RER
+  \item 软件平台：开发环境：Visual Studio 2010；开发语言：C\#；运行平台：Microsoft .NET Compact Framework；运行系统：Windows XP/CE/Mobile
+
+\end{scriptsize}
 \end{itemize}
 \end{block}
 \begin{figure}
@@ -554,37 +550,59 @@ $N=f_{N}(\lambda;\nu,\sigma)$
 \label{platform}
 \end{figure}
 \end{frame}
-%
-%\begin{frame}{动态测试算法}
-%\begin{block}{算法设计与软件开发}
-%\begin{itemize}
-%  \item The raw data is processed by the on-line estimation algorithm to provide current network status and conduct next signal sampling.
-%  \item The algorithm can also provide received signal strength prediction, and it will give the warning information when it is necessary.
-%\end{itemize}
-%\end{block}
-%\begin{figure}
-%\centerline
-%{
-%    \subfloat[测试算法]{\includegraphics[width=1.45in]{umframework.pdf}
-%}
-%\hfil
-%    \subfloat[软件功能]{\includegraphics[width=1.8in]{softwarefunction.pdf}
-%}
-%}
-%\caption{测试算法与软件功能}
-%\label{framework}
-%\end{figure}
-%%Since the system records the received signal strength of current and neighbour cells, the data can be used to make handover analysis and network optimization. Except the physical layer information, the system can also give quality of service of the link layer, including data traffic and voice service.
-%\end{frame}
 
-\begin{frame}{动态采样与估计}
-\begin{block}{测试结果}
-
+\begin{frame}{动态采样与估计-性能评估}
+\begin{block}{\footnotesize{算法设计与系统实现}}
 \begin{itemize}
-  \item 在莱斯因子$K = 0$时，统计区间为$2L = 40\lambda$，采样间隔为$0.5\lambda$；
+\begin{scriptsize}
+\item 在线测试算法主要包括莱斯衰落参数估计与采样参数计算，分为衰落因子$\nu_0$和$\sigma_0$的初始化与实时更新，同时确定下一轮采样参数$2L$和$N$。最后通过统计区间长度和采样点数计算得到采样间隔$\Delta d=2L/N$，并开始新一轮的信号采样与参数估计。
+\item 测试系统对网络进行实时监测，在故障时给出预警信息；给出网络的综合性能评估，并提出参数调整建议；包含物理层、链路层与业务层指标，实现对网络的全面测试。
+
+\end{scriptsize}
+\end{itemize}
+\end{block}
+\begin{figure}
+\centerline
+{
+    \subfloat[算法设计]{\includegraphics[width=1.5in]{umframework.pdf}
+}
+\hfil
+    \subfloat[系统实现]{\includegraphics[width=2.4in]{softwarefunction.pdf}
+}
+}
+\caption{算法设计与系统实现}
+\label{framework}
+\end{figure}
+\end{frame}
+
+\begin{frame}{动态采样与估计-性能评估}
+\begin{block}{系统功能}
+GSM-R网络空中接口测试系统主要完成网络通信质量的测试、处理、预测、显示与预警。
+\end{block}
+
+\begin{figure}
+\centerline
+{
+    \subfloat[]{\includegraphics[width=1.6in]{dataprocess.pdf}
+}
+\hfil
+    \subfloat[]{\includegraphics[width=1.6in]{function.pdf}
+}
+}
+\caption{数据处理与基本功能}
+\end{figure}
+\end{frame}
+
+\begin{frame}{动态采样与估计-性能评估}
+\begin{block}{测试结果}
+在相同的测试精度下，即归一化误差分别为1dB，动态算法的测试开销显著降低，从而有效保证网络的正常通信。
+\begin{itemize}
+\begin{footnotesize}
+  \item 莱斯因子$K = 0$时，统计区间$2L = 55\lambda$，采样间隔为$3.7\lambda$，而Lee氏算法为$1.1\lambda$；
   \item 随着莱斯因子$K$的增大，统计区间与采样间隔逐渐降低；
-  \item 当$\nu \geq 8$时，采样点数$N \leq 10$便可以保证本地均值的准确性；
-  \item 在$K$逐渐增大时，不需要做频繁的数据采集，采样间隔在$1m$左右。
+  \item 当$\nu \geq 8$时，采样点数$N \leq 10$便可以保证本地均值的准确性，采样间隔大于1m。
+
+\end{footnotesize}
 \end{itemize}
 \end{block}
 \begin{table}[!t]
@@ -620,11 +638,11 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 \end{table}
 \end{frame}
 
-\begin{frame}{动态采样与估计}
-同时大尺度和小尺度衰落能够有效分离：
+\begin{frame}{动态采样与估计-性能评估}
+同时大尺度和小尺度衰落能够有效分离，为上层应用提供状态信息：
 \begin{enumerate}
-  \item 大尺度衰落：通过ML或MMSE估计进行传播预测\sfcite{gopal2009power}
-  \item 小尺度衰落：切换算法的切换门限选择\sfcite{itoh2002performance}
+  \item 大尺度衰落：通过ML或MMSE估计进行传播预测\sfcite{gopal2009power}；
+  \item 小尺度衰落：切换算法的切换门限选择\sfcite{itoh2002performance}。
 \end{enumerate}
 \begin{figure}[!t]
 \centerline{
@@ -644,31 +662,9 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 
 \section{链路质量测试与建模}
 
-\subsection{无线局域网络}
-
-\begin{frame}{传输性能-无线局域网络}
-802.11n网络采用MIMO-OFDM及其相关技术\sfcite{perahia2008next}，从而有效地提升网络的\alert{传输性能}，保证更高的吞吐量与覆盖范围。
-\begin{block}{PHY层}
-    \begin{itemize}
-    \item
-    \textcolor{green!50!black}{MIMO：}采用多天线及空间复用技术，提升PHY吞吐量及覆盖范围，同时提高系统稳定性；
-    \item
-    \textcolor{green!50!black}{HT20/HT40：}采用灵活信道技术，更好地解决载波侦听、隐藏/暴露终端等问题。
-    \end{itemize}
-\end{block}
-\begin{block}{MAC层}
-    \begin{itemize}
-    \item
-    \textcolor{green!50!black}{A-MPDU：}帧聚合技术即多个帧共用一个MAC头部，同时降低ACK发送频率，降低发送/接收开销，提高传输效率；
-    \item
-    \textcolor{green!50!black}{SGI：}400ns保护间隔，降低时间开销，提高MAC吞吐量。
-    \end{itemize}
-\end{block}
-\end{frame}
-
 \subsection{链路质量测试}
 
-\begin{frame}{链路质量测试}
+\begin{frame}{链路质量测试-现有工作}
 \begin{block}{传统方法}
 传统方法或基于主动探测，或基于固定PDR-RSS模型，如图~\ref{staticpdrrss}~所示。
 \begin{enumerate}
@@ -682,12 +678,12 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 \setcounter{subfigure}{0}
 \centering
 \includegraphics[width=0.5\textwidth]{modeling1.pdf}
-\label{staticpdrrss}
 \caption{静态PDR-RSS框架}
+\label{staticpdrrss}
 \end{figure}
 \end{frame}
 
-\begin{frame}{链路质量测试}
+\begin{frame}{链路质量测试-现有工作}
 \begin{block}{测试方法EWMA: $\hat{P_w}[k]=\alpha \hat{P_w}[k-1]+(1-\alpha)P[k]$}
 \begin{enumerate}
   \item
@@ -703,7 +699,7 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
   \end{figure}
 \end{frame}
 
-\begin{frame}{链路质量测试}
+\begin{frame}{链路质量测试-现有工作}
 \begin{figure}[!t]
 \centerline{
     \subfloat[PDR-RSS模型]{\includegraphics[width=0.48\textwidth]{pdr.pdf}
@@ -716,11 +712,11 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 \caption{PDR-RSS模型过渡窗口}
 \label{transitionexam}
 \end{figure}
-如图~\ref{transitionexam}~所示，在所有被选择的HT/GI/MCS配置中，34\%落入过渡窗口中，8\%使得PDR$<$10\%，这种情况在移动802.11n网络中更为明显。
+如图~\ref{transitionexam}~所示，在所有被选择的HT/GI/MCS配置中，\alert{34\%落入过渡窗口中}，8\%使得PDR$<$10\%，这种情况在移动802.11n网络中更为明显。
 \end{frame}
 
 \subsection{在线测试与建模}
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{链路质量在线测试与建模}
   \footnotesize{
   \begin{enumerate}
@@ -748,7 +744,7 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
       \item
       链路层：\alert{传输成功率(PDR)}
       \end{tiny}
-      \end{itemize}    
+      \end{itemize}
 \item 在线实测模型：GradedM
     \begin{itemize}
     \begin{tiny}
@@ -777,7 +773,7 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 
 %\end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{测试模型：广义伯努利随机过程}
 发送数据包接收状态为$x_i=\{0,1\}$，接收成功概率$p_i$由SINR模型刻画。
 \begin{equation}
@@ -801,7 +797,7 @@ Open       & 10 &   18 & 4 & 12 &  1 & 12.0 & 4.000 & 24.00 & 19.20 & 16.00\\
 %  \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{测试方法DSWA:  $\hat{P_s}[k]=\beta P'[k]+(1-\beta)P[k]$}
 \begin{figure}
     \includegraphics[width=0.8\textwidth]{m_sliding.pdf}
@@ -836,33 +832,7 @@ $\omega_i$为加权因子：
 }
 \end{frame}
 
-\begin{frame}{在线测试与建模}
-\begin{block}{测试算法精度及开销评估}
-\scriptsize{
-\begin{itemize}
-  \item 总体的测试误差方面，DSWA明显低于EWMA；
-  \item 从累积分布函数可以看出，EWMA测量值倾向高于实际值；
-  \item DSWA的窗口长度只跟网络状态有关，与传输速率无关；
-  \item 传输速率从6.5Mbps到300Mbps，EWMA算法的窗口长度从$W=20$增加到$W=500$，当$W=500$时EWMA会遗漏掉PDR瞬时下降的信息。
-\end{itemize}
-}
-\end{block}
-\begin{figure}[!t]
-\setcounter{subfigure}{0}
-\centerline{
-    \subfloat[累积分布函数]{\includegraphics[width=0.2\textwidth]{cdf.pdf}
-\label{cdf}
-}
-    \subfloat[平均窗口长度]{\includegraphics[width=0.48\textwidth]{DSWA.pdf}
-\label{overhead}
-}
-}
-\caption{传输成功率测试误差}
-\label{DSWA_error}
-\end{figure}
-\end{frame}
-
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{在线建模}
 \scriptsize{
 \begin{enumerate}
@@ -890,7 +860,36 @@ $\omega_i$为加权因子：
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
+\begin{block}{在线建模算法}
+\begin{algorithm}[H]
+%\SetAlFnt{\footnotesize}
+\floatname{algorithm}{算法}
+\renewcommand{\algorithmicrequire}{\textbf{输入：}}
+\renewcommand{\algorithmicensure}{\textbf{输出：}}
+\caption{GradedM：PDR-RSS在线建模与实时更新}
+\label{alg:graded}
+\begin{scriptsize}
+\begin{algorithmic}[1]
+\Require pdr-now, rss-now
+\Ensure  ht-gi-mcs-index
+\State{\label{graded-table}struct GradedT \{ \\ ~~~~~~~~~graded-delta[r][2]; // r=8/16/24 对应于天线数量1/2/3\\ \} graded-table[w][g]; // w=g=2 对应于信道HT20/HT40与保护间隔LGI/SGI\label{graded-table2}}
+\State{// \textbf{1. PDR-RSS模型实时更新}}
+\If{graded-delta-changed} \label{delta-changed}
+\State{graded-table $\gets$ update-delta(pdr-now,rss-now);}
+\EndIf \label{delta-updated}
+\State{// \textbf{2. HT/GI选择序列排序}}
+\State{mcs-index $\gets$ sort(graded-table,rss-now);} \label{ht-gi}
+\State{// \textbf{3. HT/GI/MCS选择序列排序}}
+\State{ht-gi-mcs-index $\gets$ sort(mcs-index,mcs-rate);} \label{ht-gi-mcs}
+\State \Return{ht-gi-mcs-index;}
+\end{algorithmic}
+\end{scriptsize}
+\end{algorithm}
+\end{block}
+\end{frame}
+
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{在线建模}
 1. 初始化获得原始PDR-RSS模型，并储存于GradedT中，当参数发生变化时进行在线更新，对GradedT进行排序获得HT/GI/MCS索引。
 \end{block}
@@ -899,7 +898,7 @@ $\omega_i$为加权因子：
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{在线建模}
 2. 该索引反应了所有配置在当前状态下可获得的传输性能与可靠性，可以作为PHY/MAC配置参数提供给上层应用。
 \end{block}
@@ -908,38 +907,53 @@ $\omega_i$为加权因子：
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{在线建模}
 2. 该索引反应了所有配置在当前状态下可获得的传输性能与可靠性，可以作为PHY/MAC配置参数提供给上层应用。
 \end{block}
 \begin{figure}[!t]
-\includegraphics[width=0.6\textwidth]{gradedexample1.pdf}
+\includegraphics[width=0.6\textwidth]{gradedexample10.pdf}
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{在线PDR-RSS建模算法}
 3. 当前配置下PDR$<$90\%或RSS$<\delta_+$，或者PDR和RSS持续稳定，但无法满足速率需求，根据ht-gi-mcs-table重新选择合适配置。
 \end{block}
 \begin{figure}[!t]
-\includegraphics[width=0.6\textwidth]{gradedexample3.pdf}
+\includegraphics[width=0.6\textwidth]{gradedexample30.pdf}
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-算法设计}
 \begin{block}{在线建模}
 3. 当前配置下PDR$<$90\%或RSS$<\delta_+$，或者PDR和RSS持续稳定，但无法满足速率需求，根据ht-gi-mcs-table重新选择合适配置。
 \end{block}
 \begin{figure}[!t]
-\includegraphics[width=0.6\textwidth]{gradedexample4.pdf}
+\includegraphics[width=0.6\textwidth]{gradedexample40.pdf}
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
+\begin{frame}{在线测试与建模-性能评估}
 \begin{columns}
 \column{2in}
-\begin{block}{性能评估}
-通过笔记本进行移动测试，移动节点通过Linux操作系统以及ath9k开源无线驱动实现无线通信，由GradedR实现网络性能测试与速率控制，物理层吞吐量作为性能评估指标。
+\begin{block}{\footnotesize{实验测试}}
+\begin{scriptsize}
+通过Linux操作系统以及ath9k开源无线驱动实现无线通信，对比算法包括：
+\begin{enumerate}
+  \item Minstrel-EWMA
+  \item Minstrel-DSWA
+  \item GradedR
+\end{enumerate}
+评估指标包括：
+\begin{enumerate}
+%\begin{footnotesize}
+  \item 测试算法精度及开销
+  \item 传输成功率
+  \item 吞吐量
+%\end{footnotesize}
+\end{enumerate}
+\end{scriptsize}
 \end{block}
 \column{2.4in}
 \begin{figure}[!t]
@@ -955,8 +969,34 @@ $\omega_i$为加权因子：
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
-\begin{block}{性能评估}
+\begin{frame}{在线测试与建模-性能评估}
+\begin{block}{1、测试算法精度及开销评估}
+\scriptsize{
+\begin{itemize}
+  \item 总体的测试误差方面，DSWA明显低于EWMA；
+  \item 从累积分布函数可以看出，EWMA测量值倾向高于实际值；
+  \item DSWA的窗口长度只跟网络状态有关，与传输速率无关；
+  \item 传输速率从6.5Mbps到300Mbps，EWMA算法的窗口长度从$W=20$增加到$W=500$，当$W=500$时EWMA会遗漏掉PDR瞬时下降的信息。
+\end{itemize}
+}
+\end{block}
+\begin{figure}[!t]
+\setcounter{subfigure}{0}
+\centerline{
+    \subfloat[累积分布函数]{\includegraphics[width=0.2\textwidth]{cdf.pdf}
+\label{cdf}
+}
+    \subfloat[平均窗口长度]{\includegraphics[width=0.48\textwidth]{DSWA.pdf}
+\label{overhead}
+}
+}
+\caption{传输成功率测试误差}
+\label{DSWA_error}
+\end{figure}
+\end{frame}
+
+\begin{frame}{在线测试与建模-性能评估}
+\begin{block}{2、传输成功率评估}
 \begin{itemize}
   \item GradedR测试算法至少91\% 的PDR高于90\%，而Minstrel约有63\% 的PDR低于90\%；
   \item 随着MIMO可用天线数量的增加，GradedR可靠性随之上升，其低于90\%的PDR比例由9\%降为5\%，而Minstrel从37\% 上升为51\%。
@@ -980,8 +1020,8 @@ $\omega_i$为加权因子：
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
-\begin{block}{性能评估}
+\begin{frame}{在线测试与建模-性能评估}
+\begin{block}{3、吞吐量评估}
 \begin{itemize}
   \item 对于1X3的MIMO配置，GradedR算法只有在时间20秒之前吞吐量高于Minstrel算法5-15Mbps，其他情况下的吞吐量基本相同；
   \item 其他配置下，在2X3配置下GradedR算法高于Minstrel5-20Mbps，在3X3配置下甚至达到30Mbps的性能提升。
@@ -1005,8 +1045,8 @@ $\omega_i$为加权因子：
 \end{figure}
 \end{frame}
 
-\begin{frame}{在线测试与建模}
-\begin{block}{性能评估}
+\begin{frame}{在线测试与建模-性能评估}
+\begin{block}{3、吞吐量评估}
 \begin{itemize}
   \item GradedR在1X3和3X3配置下分别提升吞吐量15Mbps和40Mbps；
   \item RSS低于-60dBm时，不同算法在单天线和双天线系统的吞吐量基本相同，GradedR在3X3配置下最大吞吐量提升为5Mbps；
@@ -1034,18 +1074,58 @@ $\omega_i$为加权因子：
 \begin{frame}{论文总结}
 本文针对移动无线网络的通信质量测试，提出信道状态与链路质量的动态测试算法，并分别完成测试系统的软硬件平台搭建，最后通过实验对测试算法进行测试、对比与评估。
 \begin{enumerate}
-  \item 提出高速移动无线网络信道状态动态测试算法，在高速移动环境下保证测试精度并有效降低测试开销；
-  \item 搭建GSM-R网络空中接口监测系统，并自主开发在线测试软件平台，于京沪高速铁路进行实验测试；
-  \item 设计动态滑动平均算法实现传输成功率的准确测量，有效降低由网络状态的时变特性所造成的不利影响；
-  \item 设计并实现链路质量在线建模框架，同时利用物理层与链路层指标实现移动MIMO-OFDM网络的速率适配；
-  \item 开发无线局域网络通信质量测试软件，并对测试算法及速率适配算法进行验证、对比与评估。
+  \item 提出高速移动无线网络信道状态\alert{动态测试算法}，在高速移动环境下保证测试精度并有效降低测试开销；
+  \item 搭建GSM-R网络\alert{空中接口监测系统}，并自主开发在线测试软件平台，于京沪高速铁路进行实验测试；
+  \item 设计\alert{动态滑动平均算法}实现传输成功率的准确测量，有效降低由网络状态的时变特性所造成的不利影响；
+  \item 设计并实现链路质量\alert{在线建模框架}，同时利用物理层与链路层指标实现移动MIMO-OFDM网络的速率适配；
+  \item 开发无线局域网络\alert{通信质量测试软件}，并对测试算法及速率适配算法进行验证、对比与评估。
 \end{enumerate}
+\end{frame}
+
+\begin{frame}{论文与专利}
+
+\begin{thebibliography}{8}
+\tiny{
+\bibitem[Yongsen12dynamic]{aloft}
+Yongsen Ma, Xiaofeng Mao, Pengyuan Du, Chengnian Long, and Bo Li.
+\newblock Dynamic estimation of local mean power in GSM-R networks,
+\newblock under review of Springer Wireless Networks.
+\bibitem[Yongsen12online]{aloft}
+Yongsen Ma, Pengyuan Du, Xiaofeng Mao, and Chengnian Long.
+\newblock On-line and dynamic estimation of Rician fading channels in GSM-R networks.
+\newblock In WCSP’12, October 2012.
+\bibitem[Yongsen12dual]{aloft}
+Pengyuan Du, Lujin Luo, Yongsen Ma, and Chengnian Long.
+\newblock A dual-antenna based handover scheme for GSM-R network.
+\newblock In WCSP’12, October 2012.
+\bibitem[马永森GIS]{aloft}
+龙承念，马永森，茅晓峰.
+\newblock 结合GIS的GSM-R网络通信质量测试系统.
+\newblock CN102595445A. July 2012.
+\bibitem[马永森dynamic]{aloft}
+龙承念，马永森，茅晓峰.
+\newblock GSM-R网络接收信号强度动态测试算法.
+\newblock CN102571238A. July 2012.
+\bibitem[马永森Um]{aloft}
+龙承念，马永森，茅晓峰，王英杰，黎凌宇，骆理.
+\newblock GSM-R网络空中接口在线测试与预警系统.
+\newblock CN102438270A. May 2012.
+\bibitem[马永森software]{aloft}
+马永森，茅晓峰，龙承念.
+\newblock GSM-R网络空中接口测试系统v1.0.
+\newblock 2011SR076399. September 2011.
+\bibitem[yongsen11n]{aloft}
+Yongsen Ma, Jing Wu, Chengnian Long, and Bo Li.
+\newblock Online measurement and prediction of packet delivery in mobile 802.11n networks.
+\newblock on processing of IEEE Transactions on Mobile Computing.
+}
+\end{thebibliography}
 \end{frame}
 
 \section<presentation>*{}
 \subsection<presentation>*{}
 
-\begin{frame}{移动无线网络通信质量测试与建模}
+\begin{frame}{移动无线网络信道在线测试与应用}
 \centerline
 {
   \fontsize{25pt}{10pt} \textbf{THANKS!}
@@ -1153,48 +1233,11 @@ P_e = 10 \log_{10}\left(\frac{\hat{s}+\sigma_{\hat{s}}}{\hat{s}-\sigma_{\hat{s}}
 \end{equation}
 \end{frame}
 
-\begin{frame}{本地均值估计}
-\begin{block}{5、算法设计与系统实现}
-GSM-R网络接收信号强度在线测试算法主要包括莱斯衰落参数估计与采样参数计算，分为衰落因子$\nu_0$和$\sigma_0$的初始化与实时更新，同时确定下一轮采样参数$2L$和$N$。最后通过统计区间长度和采样点数计算得到采样间隔$\Delta d=2L/N$，并开始新一轮的信号采样与参数估计。
-\end{block}
-
-\begin{figure}
-\centerline
-{
-    \subfloat[]{\includegraphics[width=1.45in]{umframework.pdf}
-}
-\hfil
-    \subfloat[]{\includegraphics[width=1.8in]{softwarefunction.pdf}
-}
-}
-\caption{测试框架与算法实现}
-\label{framework}
-\end{figure}
-\end{frame}
-
-\begin{frame}{本地均值估计}
-\begin{block}{6、系统功能}
-GSM-R网络空中接口测试系统主要完成网络通信质量的测试、处理、预测、显示与预警。
-\end{block}
-
-\begin{figure}
-\centerline
-{
-    \subfloat[]{\includegraphics[width=1.6in]{dataprocess.pdf}
-}
-\hfil
-    \subfloat[]{\includegraphics[width=1.6in]{function.pdf}
-}
-}
-\caption{数据处理与基本功能}
-\end{figure}
-\end{frame}
-
 \subsection*{链路质量建模}
 
 \begin{frame}{链路质量建模}
 \begin{block}{1、链路质量测试误差}
-\begin{scriptsize}  
+\begin{scriptsize}
   1、固定窗口：
 \begin{equation}
  \textbf{E[}\Delta PDR_f\textbf{]}=\textbf{E[}\frac{1}{W}\sum_{i=1}^{W}{x_i}-p\textbf{]}=\frac{1}{W}\sum_{i=1}^{W}{\textbf{E[}x_i\textbf{]}}-p=0
@@ -1202,7 +1245,7 @@ GSM-R网络空中接口测试系统主要完成网络通信质量的测试、处理、预测、显示与预警。
 \begin{equation}
  \textbf{D[}\Delta PDR_f\textbf{]}=\textbf{D[}\frac{1}{W}\sum_{i=1}^{W}{x_i}-p\textbf{]}=\frac{1}{W}\sum_{i=1}^{W}{\textbf{D[}x_i\textbf{]}}=p(1-p)
 \end{equation}
-  
+
   2、加权窗口：
 \begin{equation}
  \textbf{E[}\Delta PDR_w\textbf{]}=\textbf{E[}\alpha PDR_f+(1-\alpha)PDR_f-p\textbf{]}=\alpha p + (1-\alpha) p-p=0
@@ -1212,7 +1255,7 @@ GSM-R网络空中接口测试系统主要完成网络通信质量的测试、处理、预测、显示与预警。
  \textbf{D[}\Delta PDR_w\textbf{]}=\textbf{D[}\alpha PDR_f+(1-\alpha)PDR_f-p\textbf{]}=[\alpha^2+(1-\alpha)^2]p(1-p)
 \label{equa:Dpw}
 \end{equation}
-  
+
   3、滑动窗口：
 \begin{equation}
  \textbf{E[}\Delta PDR_s[k+1]\textbf{]}=\textbf{E[}\beta P'[k]+(1-\beta)P[k+1]-p_{n}\textbf{]}=\beta\overline{p'}[k]+(1-\beta)\overline{p}[k+1]-p_{n}
@@ -1269,37 +1312,7 @@ $\textbf{D[}\Delta PDF_s\textbf{]}$ & 0.036 & 0.037 & 0.038 & 0.029 & 0.039 & 0.
 \end{frame}
 
 \begin{frame}{链路质量建模}
-\begin{block}{2、在线建模算法}
-\begin{algorithm}[H]
-%\SetAlFnt{\footnotesize}
-\floatname{algorithm}{算法}
-\renewcommand{\algorithmicrequire}{\textbf{输入：}}
-\renewcommand{\algorithmicensure}{\textbf{输出：}}
-\caption{GradedM：PDR-RSS在线建模与实时更新}
-\label{alg:graded}
-\begin{scriptsize}
-\begin{algorithmic}[1]
-\Require pdr-now, rss-now
-\Ensure  ht-gi-mcs-index
-\State{\label{graded-table}struct GradedT \{ \\ ~~~~~~~~~graded-delta[r][2]; // r=8/16/24 对应于天线数量1/2/3\\ \} graded-table[w][g]; // w=g=2 对应于信道HT20/HT40与保护间隔LGI/SGI\label{graded-table2}}
-\State{// 1. PDR-RSS模型实时更新}
-\If{graded-delta-changed} \label{delta-changed}
-\State{graded-table $\gets$ update-delta(pdr-now,rss-now);}
-\EndIf \label{delta-updated}
-\State{// 2. HT/GI选择序列排序}
-\State{mcs-index $\gets$ sort(graded-table,rss-now);} \label{ht-gi}
-\State{// 3. HT/GI/MCS选择序列排序}
-\State{ht-gi-mcs-index $\gets$ sort(mcs-index,mcs-rate);} \label{ht-gi-mcs}
-\State \Return{ht-gi-mcs-index;}
-\end{algorithmic}
-\end{scriptsize}
-\end{algorithm}
-\end{block}
-
-\end{frame}
-
-\begin{frame}{链路质量建模}
-\begin{block}{3、速率适配算法}
+\begin{block}{2、速率适配算法}
 \begin{algorithm}[H]
 \floatname{algorithm}{算法}
 \renewcommand{\algorithmicrequire}{\textbf{输入：}}
@@ -1326,42 +1339,6 @@ $\textbf{D[}\Delta PDF_s\textbf{]}$ & 0.036 & 0.037 & 0.038 & 0.029 & 0.039 & 0.
 \end{algorithm}
 \end{block}
 \end{frame}
-
-%\begin{frame}{论文与专利}
-%
-%\begin{thebibliography}{8}
-%\tiny{
-%\bibitem[Yongsen12dynamic]{aloft}
-%Yongsen Ma, Xiaofeng Mao, Pengyuan Du, Chengnian Long, and Bo Li.
-%\newblock Dynamic estimation of local mean power in GSM-R networks,
-%\newblock under review of Springer Wireless Networks.
-%\bibitem[Yongsen12online]{aloft}
-%Yongsen Ma, Pengyuan Du, Xiaofeng Mao, and Chengnian Long.
-%\newblock On-line and dynamic estimation of Rician fading channels in GSM-R networks.
-%\newblock In WCSP’12, October 2012.
-%\bibitem[Yongsen12dual]{aloft}
-%Pengyuan Du, Lujin Luo, Yongsen Ma, and Chengnian Long.
-%\newblock A dual-antenna based handover scheme for GSM-R network.
-%\newblock In WCSP’12, October 2012.
-%\bibitem[马永森GIS]{aloft}
-%龙承念，马永森，茅晓峰.
-%\newblock 结合GIS的GSM-R网络通信质量测试系统.
-%\newblock CN102595445A. July 2012.
-%\bibitem[马永森dynamic]{aloft}
-%龙承念，马永森，茅晓峰.
-%\newblock GSM-R网络接收信号强度动态测试算法.
-%\newblock CN102571238A. July 2012.
-%\bibitem[马永森Um]{aloft}
-%龙承念，马永森，茅晓峰，王英杰，黎凌宇，骆理.
-%\newblock GSM-R网络空中接口在线测试与预警系统.
-%\newblock CN102438270A. May 2012.
-%\bibitem[马永森software]{aloft}
-%马永森，茅晓峰，龙承念.
-%\newblock GSM-R网络空中接口测试系统v1.0.
-%\newblock 2011SR076399. September 2011.
-%}
-%\end{thebibliography}
-%\end{frame}
 
 \end{CJK*}
 \end{document}

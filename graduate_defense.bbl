@@ -114,6 +114,29 @@
   \field{year}{2010}
 \endentry
 
+\entry{perahia2008next}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Perahia}{P.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stacey}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PE+1}
+  \strng{fullhash}{PESR1}
+  \field{pages}{02}
+  \field{title}{{Next Generation Wireless LANs}: throughput, robustness and
+  reliability in 802.11n}
+  \field{volume}{67}
+  \field{journaltitle}{Recherche}
+  \field{year}{2008}
+\endentry
+
 \entry{lee1985estimate}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -312,29 +335,6 @@
   measurements}
   \field{journaltitle}{IEEE Trans. on Vehicular Technology}
   \field{year}{2002}
-\endentry
-
-\entry{perahia2008next}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Perahia}{P.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Stacey}{S.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{PE+1}
-  \strng{fullhash}{PESR1}
-  \field{pages}{02}
-  \field{title}{{Next Generation Wireless LANs}: throughput, robustness and
-  reliability in 802.11n}
-  \field{volume}{67}
-  \field{journaltitle}{Recherche}
-  \field{year}{2008}
 \endentry
 
 \entry{EWMAChart}{online}{}

@@ -25,259 +25,247 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {4}{4}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{1}{3}{5/5}{移动无线网络}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{通信质量测试}}\headcommand {\beamer@subsectionpages {3}{4}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{2}{1}{5/5}{通信质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {5}{5}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{通信质量测试}}\headcommand {\beamer@subsectionpages {3}{5}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{2}{1}{6/6}{通信质量测试}{0}}
+\headcommand {\slideentry {1}{2}{2}{6/6}{通信质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {6}{6}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{2}{2}{7/7}{通信质量测试}{0}}
+\headcommand {\slideentry {1}{2}{3}{7/7}{通信质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {7}{7}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{2}{3}{8/8}{通信质量测试}{0}}
+\headcommand {\slideentry {1}{2}{4}{8/8}{通信质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {8}{8}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{2}{4}{9/9}{通信质量测试}{0}}
+\headcommand {\slideentry {1}{2}{5}{9/9}{通信质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {9}{9}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {2}{信道状态采样与估计}{10}{信道状态采样与估计}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {3}{9}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {6}{9}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{2}{1}{10}{高速移动网络}}\headcommand {\beamer@subsectionpages {10}{9}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{1}{1}{10/10}{高速移动网络}{0}}
+\headcommand {\slideentry {1}{2}{6}{10/10}{通信质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {10}{10}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{1}{2}{11/11}{高速移动网络}{0}}
+\headcommand {\sectionentry {2}{信道状态采样与估计}{11}{信道状态采样与估计}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {3}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {5}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{无线传播测试}}\headcommand {\beamer@subsectionpages {11}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{1}{11/11}{无线传播测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {11}{11}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{2}{2}{12}{无线传播测试}}\headcommand {\beamer@subsectionpages {10}{11}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{2}{1}{12/12}{无线传播测试}{0}}
+\headcommand {\slideentry {2}{1}{2}{12/12}{无线传播测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {12}{12}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{2}{2}{13/13}{无线传播测试}{0}}
+\headcommand {\slideentry {2}{1}{3}{13/13}{无线传播测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {13}{13}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{2}{3}{14/14}{无线传播测试}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{14}{动态采样与估计}}\headcommand {\beamer@subsectionpages {11}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{1}{14/14}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {14}{14}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{2}{3}{15}{动态采样与估计}}\headcommand {\beamer@subsectionpages {12}{14}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{1}{15/15}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{2}{15/15}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {15}{15}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{2}{16/16}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{3}{16/16}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {16}{16}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{3}{17/17}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{4}{17/17}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {17}{17}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{4}{18/18}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{5}{18/18}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {18}{18}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{5}{19/19}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{6}{19/19}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {19}{19}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{6}{20/20}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{7}{20/20}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {20}{20}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{7}{21/21}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{8}{21/21}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {21}{21}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{3}{8}{22/22}{动态采样与估计}{0}}
+\headcommand {\slideentry {2}{2}{9}{22/22}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {22}{22}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {3}{链路质量测试与建模}{23}{链路质量测试与建模}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {10}{22}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {15}{22}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{3}{1}{23}{无线局域网络}}\headcommand {\beamer@subsectionpages {23}{22}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{1}{1}{23/23}{无线局域网络}{0}}
+\headcommand {\slideentry {2}{2}{10}{23/23}{动态采样与估计}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {23}{23}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{1}{2}{24/24}{无线局域网络}{0}}
+\headcommand {\sectionentry {3}{链路质量测试与建模}{24}{链路质量测试与建模}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {11}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {14}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{1}{24}{链路质量测试}}\headcommand {\beamer@subsectionpages {24}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{1}{24/24}{链路质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {24}{24}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{3}{2}{25}{链路质量测试}}\headcommand {\beamer@subsectionpages {23}{24}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{1}{25/25}{链路质量测试}{0}}
+\headcommand {\slideentry {3}{1}{2}{25/25}{链路质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {25}{25}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{2}{26/26}{链路质量测试}{0}}
+\headcommand {\slideentry {3}{1}{3}{26/26}{链路质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {26}{26}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{3}{27/27}{链路质量测试}{0}}
+\headcommand {\slideentry {3}{1}{4}{27/27}{链路质量测试}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {27}{27}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{4}{28/28}{链路质量测试}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{28}{在线测试与建模}}\headcommand {\beamer@subsectionpages {24}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{1}{28/28}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {28}{28}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{3}{3}{29}{在线测试与建模}}\headcommand {\beamer@subsectionpages {25}{28}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{1}{29/29}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{2}{29/29}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {29}{29}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{2}{30/30}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{3}{30/30}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {30}{30}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{3}{31/31}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{4}{31/31}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {31}{31}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{4}{32/32}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{5}{32/32}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {32}{32}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{5}{33/33}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{6}{33/33}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {33}{33}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{6}{34/34}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{7}{34/34}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {34}{34}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{7}{35/35}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{8}{35/35}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {35}{35}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{8}{36/36}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{9}{36/36}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {36}{36}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{9}{37/37}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{10}{37/37}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {37}{37}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{10}{38/38}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{11}{38/38}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {38}{38}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{11}{39/39}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{12}{39/39}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {39}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{12}{40/40}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{13}{40/40}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {40}{40}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{13}{41/41}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{14}{41/41}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {41}{41}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{14}{42/42}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{15}{42/42}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {42}{42}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{15}{43/43}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{16}{43/43}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {43}{43}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{16}{44/44}{在线测试与建模}{0}}
+\headcommand {\slideentry {3}{2}{17}{44/44}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {44}{44}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{4}{1}{45}{}}\headcommand {\beamer@subsectionpages {45}{44}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {4}{1}{1}{45/45}{}{0}}
+\headcommand {\slideentry {3}{2}{18}{45/45}{在线测试与建模}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {45}{45}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\partentry {Appendix}{1}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{46}{}}\headcommand {\beamer@subsectionpages {46}{45}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@partpages {1}{45}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {45}{45}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {45}{45}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@appendixpages {46}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {5}{Appendix}{46}{Appendix}{1}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {46}{45}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {46}{45}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {1}{5}{1}{46}{本地均值估计}}\headcommand {\beamer@subsectionpages {46}{45}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{1}{1}{46/46}{本地均值估计}{1}}
+\headcommand {\slideentry {4}{1}{1}{46/46}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {46}{46}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{1}{2}{47/47}{本地均值估计}{1}}
+\headcommand {\partentry {Appendix}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@partpages {1}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {46}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {46}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@appendixpages {47}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Appendix}{47}{Appendix}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {47}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {47}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {1}{5}{1}{47}{本地均值估计}}\headcommand {\beamer@subsectionpages {47}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{1}{47/47}{本地均值估计}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {47}{47}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{1}{3}{48/48}{本地均值估计}{1}}
+\headcommand {\slideentry {5}{1}{2}{48/48}{本地均值估计}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {48}{48}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{1}{4}{49/49}{本地均值估计}{1}}
+\headcommand {\slideentry {5}{1}{3}{49/49}{本地均值估计}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {49}{49}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{1}{5}{50/50}{本地均值估计}{1}}
+\headcommand {\slideentry {5}{1}{4}{50/50}{本地均值估计}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {50}{50}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{1}{6}{51/51}{本地均值估计}{1}}
+\headcommand {\beamer@subsectionentry {1}{5}{2}{51}{链路质量建模}}\headcommand {\beamer@subsectionpages {47}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{2}{1}{51/51}{链路质量建模}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {51}{51}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {1}{5}{2}{52}{链路质量建模}}\headcommand {\beamer@subsectionpages {46}{51}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{2}{1}{52/52}{链路质量建模}{1}}
+\headcommand {\slideentry {5}{2}{2}{52/52}{链路质量建模}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {52}{52}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{2}{2}{53/53}{链路质量建模}{1}}
+\headcommand {\slideentry {5}{2}{3}{53/53}{链路质量建模}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {53}{53}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{2}{3}{54/54}{链路质量建模}{1}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {54}{54}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{2}{4}{55/55}{链路质量建模}{1}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@partpages {1}{55}}
-\headcommand {\beamer@subsectionpages {1}{55}}
-\headcommand {\beamer@sectionpages {1}{55}}
-\headcommand {\beamer@documentpages {55}}
-\headcommand {\def \inserttotalframenumber {55}}
+\headcommand {\beamer@partpages {1}{53}}
+\headcommand {\beamer@subsectionpages {1}{53}}
+\headcommand {\beamer@sectionpages {1}{53}}
+\headcommand {\beamer@documentpages {53}}
+\headcommand {\def \inserttotalframenumber {53}}

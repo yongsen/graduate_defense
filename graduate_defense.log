@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.29)  17 FEB 2013 18:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.29)  19 FEB 2013 22:26
 entering extended mode
 **graduate_defense.tex
 (E:\Github\graduate_defense\graduate_defense.tex
@@ -1155,10 +1155,6 @@ Package: beamerouterthemeinfolines 2010/07/10  (rcs-revision 445340293dde)
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 163.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 163.
-
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1174,16 +1170,13 @@ Package biblatex Warning: Patching footnotes failed.
 
 (E:\Github\graduate_defense\graduate_defense.aux
 
-LaTeX Warning: Label `connectivity' multiply defined.
-
-
-LaTeX Warning: Label `MOT_WNS' multiply defined.
-
-
 LaTeX Warning: Label `gsmr' multiply defined.
 
 
 LaTeX Warning: Label `pdr' multiply defined.
+
+
+LaTeX Warning: Label `framework' multiply defined.
 
 
 LaTeX Warning: Label `thruputcdf' multiply defined.
@@ -1213,91 +1206,88 @@ LaTeX Warning: Label `Perrornu' multiply defined.
 LaTeX Warning: Label `Q_e' multiply defined.
 
 
-LaTeX Warning: Label `framework' multiply defined.
-
-
 LaTeX Warning: Label `error' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 217.
  ("C:\Program Files\CTEX\MiKTeX\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -1350,7 +1340,7 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 \everyMPtoPDFconversion=\toks51
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 216.
+Package hyperref Info: Link coloring OFF on input line 217.
 
 ("C:\Program Files\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1360,47 +1350,47 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count348
 )
-LaTeX Info: Redefining \ref on input line 216.
-LaTeX Info: Redefining \pageref on input line 216.
-LaTeX Info: Redefining \nameref on input line 216.
+LaTeX Info: Redefining \ref on input line 217.
+LaTeX Info: Redefining \pageref on input line 217.
+LaTeX Info: Redefining \nameref on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 216.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 216.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 217.
 \symnumbers=\mathgroup9
 \sympureletters=\mathgroup10
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 216.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 216.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 216.
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 216.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 216.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 216.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 216.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 216.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 216.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 216.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 216.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 216.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 216.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 216.
+(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 216.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 216.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 216.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 216.
+(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 217.
 
 ("C:\Program Files\CTEX\MiKTeX\tex\latex\beamer\base\translator\dicts\translato
 r-basic-dictionary\translator-basic-dictionary-English.dict"
@@ -1426,7 +1416,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 216.
+LaTeX Info: Redefining \includegraphics on input line 217.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1452,8 +1442,8 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 216.
-Package biblatex Info: Reference segment=0 on input line 216.
+Package biblatex Info: Reference section=0 on input line 217.
+Package biblatex Info: Reference segment=0 on input line 217.
  (E:\Github\graduate_defense\graduate_defense.nav)
 ("C:\Program Files\CTEX\MiKTeX\tex\latex\cjk\standard.bdg"
 File: standard.bdg 2008/12/29 4.8.2
@@ -1464,7 +1454,7 @@ File: extended.enc 2008/12/29 4.8.2
 ("C:\Program Files\CTEX\MiKTeX\tex\latex\cjk\extended.chr"
 File: extended.chr 2008/12/29 4.8.2
 )
-LaTeX Font Info:    Try loading font information for C19+hei on input line 241.
+LaTeX Font Info:    Try loading font information for C19+hei on input line 242.
 
 
 ("C:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
@@ -1476,7 +1466,7 @@ clusion: found PDF version <1.6>, but at most version <1.5> allowed
 <SJTU.pdf, id=14, 929.15129pt x 244.0317pt>
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 241.
+Package pdftex.def Info: SJTU.pdf used on input line 242.
 (pdftex.def)             Requested size: 72.26999pt x 18.97928pt.
  [1
 
@@ -1486,7 +1476,7 @@ efense.toc)
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 246.
+Package pdftex.def Info: SJTU.pdf used on input line 247.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [2
 
@@ -1494,310 +1484,265 @@ Package pdftex.def Info: SJTU.pdf used on input line 246.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 249.
+Package pdftex.def Info: SJTU.pdf used on input line 250.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [3
 
 ]
 
-pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/connectivity.pdf)
-: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<connectivity.pdf, id=107, 4267.945pt x 3200.95876pt>
-File: connectivity.pdf Graphic file (type pdf)
- <use connectivity.pdf>
-Package pdftex.def Info: connectivity.pdf used on input line 267.
-(pdftex.def)             Requested size: 144.54pt x 108.3818pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 267.
+pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/MOT_WNS.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<MOT_WNS.pdf, id=100, 530.10045pt x 411.939pt>
+File: MOT_WNS.pdf Graphic file (type pdf)
+ <use MOT_WNS.pdf>
+Package pdftex.def Info: MOT_WNS.pdf used on input line 268.
+(pdftex.def)             Requested size: 144.54pt x 112.31871pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 268.
 
 ("C:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 267.
+LaTeX Font Info:    Try loading font information for U+msb on input line 268.
 
 ("C:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 267.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 268.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 267.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 268.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 267.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 268.
 
-
-pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/MOT_WNS.pdf): PDF
- inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<MOT_WNS.pdf, id=108, 530.10045pt x 411.939pt>
-File: MOT_WNS.pdf Graphic file (type pdf)
- <use MOT_WNS.pdf>
-Package pdftex.def Info: MOT_WNS.pdf used on input line 267.
-(pdftex.def)             Requested size: 144.54pt x 112.31871pt.
-File: SJTU.pdf Graphic file (type pdf)
-
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 267.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [4
-
- <E:/Github/graduate_defense/connectivity.pdf> <E:/Github/graduate_defense/MOT_
-WNS.pdf>]
-
-pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/Infonetics.pdf): 
-PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Infonetics.pdf, id=132, 301.125pt x 200.6697pt>
-File: Infonetics.pdf Graphic file (type pdf)
- <use Infonetics.pdf>
-Package pdftex.def Info: Infonetics.pdf used on input line 291.
-(pdftex.def)             Requested size: 144.54pt x 96.32341pt.
-pdfTeX warning (ext4): destination with the same identifier (name{connectivity}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.291 \end{frame}
-                 
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/WirelessData.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<WirelessData.pdf, id=133, 1076.89326pt x 852.07335pt>
+<WirelessData.pdf, id=101, 1076.89326pt x 852.07335pt>
 File: WirelessData.pdf Graphic file (type pdf)
  <use WirelessData.pdf>
-Package pdftex.def Info: WirelessData.pdf used on input line 291.
-(pdftex.def)             Requested size: 130.08621pt x 102.92047pt.
-pdfTeX warning (ext4): destination with the same identifier (name{MOT_WNS}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.291 \end{frame}
-                 
-
-pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/whyblue.pdf): PDF
- inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<whyblue.pdf, id=134, 865.73438pt x 737.75626pt>
-File: whyblue.pdf Graphic file (type pdf)
- <use whyblue.pdf>
-Package pdftex.def Info: whyblue.pdf used on input line 291.
-(pdftex.def)             Requested size: 72.26999pt x 61.57709pt.
+Package pdftex.def Info: WirelessData.pdf used on input line 268.
+(pdftex.def)             Requested size: 144.54pt x 114.36185pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 291.
+Package pdftex.def Info: SJTU.pdf used on input line 268.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [4
+
+ <E:/Github/graduate_defense/MOT_WNS.pdf> <E:/Github/graduate_defense/WirelessD
+ata.pdf>] (E:\Github\graduate_defense\graduate_defense.toc)
+File: SJTU.pdf Graphic file (type pdf)
+
+<use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 270.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [5
 
- <E:/Github/graduate_defense/Infonetics.pdf> <E:/Github/graduate_defense/Wirele
-ssData.pdf> <E:/Github/graduate_defense/whyblue.pdf>]
-(E:\Github\graduate_defense\graduate_defense.toc)
+] <dynamic.pdf, id=142, 856.82108pt x 518.00526pt>
+File: dynamic.pdf Graphic file (type pdf)
+
+<use dynamic.pdf>
+Package pdftex.def Info: dynamic.pdf used on input line 278.
+(pdftex.def)             Requested size: 238.49121pt x 144.17892pt.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 293.
+Package pdftex.def Info: SJTU.pdf used on input line 278.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [6
 
-]
-<dynamic.pdf, id=171, 856.82108pt x 518.00526pt>
-File: dynamic.pdf Graphic file (type pdf)
- <use dynamic.pdf>
-Package pdftex.def Info: dynamic.pdf used on input line 302.
-(pdftex.def)             Requested size: 238.49121pt x 144.17892pt.
-File: SJTU.pdf Graphic file (type pdf)
-
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 302.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [7
-
  <E:/Github/graduate_defense/dynamic.pdf>]
-<time.pdf, id=195, 433.62pt x 289.08pt>
-File: time.pdf Graphic file (type pdf)
- <use time.pdf>
-Package pdftex.def Info: time.pdf used on input line 327.
-(pdftex.def)             Requested size: 130.08621pt x 86.72466pt.
-
-<cdfrss.pdf, id=196, 216.81pt x 289.08pt>
-File: cdfrss.pdf Graphic file (type pdf)
- <use cdfrss.pdf>
-Package pdftex.def Info: cdfrss.pdf used on input line 327.
-(pdftex.def)             Requested size: 65.04256pt x 86.72466pt.
-
-<pdrvary.pdf, id=197, 361.35pt x 289.08pt>
-File: pdrvary.pdf Graphic file (type pdf)
- <use pdrvary.pdf>
-Package pdftex.def Info: pdrvary.pdf used on input line 327.
-(pdftex.def)             Requested size: 108.405pt x 86.72466pt.
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 327.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
-
-Overfull \vbox (6.21912pt too high) detected at line 327
- []
-
-[8
-
- <E:/Github/graduate_defense/time.pdf> <E:/Github/graduate_defense/cdfrss.pdf> 
-<E:/Github/graduate_defense/pdrvary.pdf>]
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 344.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [9
-
-]
-(E:\Github\graduate_defense\graduate_defense.toc)
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 348.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [10
-
-]
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/gsmrservice.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<gsmrservice.pdf, id=260, 460.93506pt x 354.23712pt>
+<gsmrservice.pdf, id=161, 460.93506pt x 354.23712pt>
 File: gsmrservice.pdf Graphic file (type pdf)
  <use gsmrservice.pdf>
-Package pdftex.def Info: gsmrservice.pdf used on input line 368.
-(pdftex.def)             Requested size: 115.63243pt x 88.86174pt.
+Package pdftex.def Info: gsmrservice.pdf used on input line 297.
+(pdftex.def)             Requested size: 130.08621pt x 99.97487pt.
 
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/gsmr.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<gsmr.pdf, id=261, 808.06734pt x 416.43079pt>
+<gsmr.pdf, id=162, 808.06734pt x 416.43079pt>
 File: gsmr.pdf Graphic file (type pdf)
  <use gsmr.pdf>
-Package pdftex.def Info: gsmr.pdf used on input line 368.
-(pdftex.def)             Requested size: 173.44756pt x 89.38472pt.
+Package pdftex.def Info: gsmr.pdf used on input line 297.
+(pdftex.def)             Requested size: 195.12877pt x 100.55544pt.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 368.
+Package pdftex.def Info: SJTU.pdf used on input line 297.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-[11
+[7
 
 pdfTeX warning (ext4): destination with the same identifier (name{gsmr}) has be
 en already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.368 \end{frame}
+l.297 \end{frame}
                   <E:/Github/graduate_defense/gsmrservice.pdf> <E:/Github/gradu
-ate_defense/gsmr.pdf>] (E:\Github\graduate_defense\graduate_defense.toc)
+ate_defense/gsmr.pdf>]
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 317.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [8
+
+]
+<time.pdf, id=313, 433.62pt x 289.08pt>
+File: time.pdf Graphic file (type pdf)
+ <use time.pdf>
+Package pdftex.def Info: time.pdf used on input line 342.
+(pdftex.def)             Requested size: 130.08621pt x 86.72466pt.
+
+<cdfrss.pdf, id=314, 216.81pt x 289.08pt>
+File: cdfrss.pdf Graphic file (type pdf)
+ <use cdfrss.pdf>
+Package pdftex.def Info: cdfrss.pdf used on input line 342.
+(pdftex.def)             Requested size: 65.04256pt x 86.72466pt.
+
+<pdrvary.pdf, id=315, 361.35pt x 289.08pt>
+File: pdrvary.pdf Graphic file (type pdf)
+ <use pdrvary.pdf>
+Package pdftex.def Info: pdrvary.pdf used on input line 342.
+(pdftex.def)             Requested size: 108.405pt x 86.72466pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 342.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+
+Overfull \vbox (6.21912pt too high) detected at line 342
+ []
+
+[9
+
+ <E:/Github/graduate_defense/time.pdf> <E:/Github/graduate_defense/cdfrss.pdf> 
+<E:/Github/graduate_defense/pdrvary.pdf>]
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 359.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [10
+
+]
+(E:\Github\graduate_defense\graduate_defense.toc)
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 363.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [11
+
+]
+<measurement.pdf, id=374, 519.86751pt x 190.21063pt>
+File: measurement.pdf Graphic file (type pdf)
+ <use measurement.pdf>
+Package pdftex.def Info: measurement.pdf used on input line 380.
+(pdftex.def)             Requested size: 216.81pt x 79.32776pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 370.
+Package pdftex.def Info: SJTU.pdf used on input line 380.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [12
 
-] <measurement.pdf, id=413, 519.86751pt x 190.21063pt>
-File: measurement.pdf Graphic file (type pdf)
-
-<use measurement.pdf>
-Package pdftex.def Info: measurement.pdf used on input line 387.
-(pdftex.def)             Requested size: 289.07999pt x 105.7713pt.
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 387.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [13
-
  <E:/Github/graduate_defense/measurement.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 408.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 401.
 File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 408.
+
+<use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 401.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [14
+ [13
 
 ] (E:\Github\graduate_defense\graduate_defense.toc)
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 410.
+Package pdftex.def Info: SJTU.pdf used on input line 403.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [15
+ [14
 
 ]
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/online.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<online.pdf, id=476, 661.20021pt x 265.24094pt>
+<online.pdf, id=435, 661.20021pt x 265.24094pt>
 File: online.pdf Graphic file (type pdf)
  <use online.pdf>
-Package pdftex.def Info: online.pdf used on input line 425.
+Package pdftex.def Info: online.pdf used on input line 418.
 (pdftex.def)             Requested size: 260.17244pt x 104.3663pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 425.
+Package pdftex.def Info: SJTU.pdf used on input line 418.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (5.98616pt too high) detected at line 425
+Overfull \vbox (5.98616pt too high) detected at line 418
  []
 
-[16
+[15
 
  <E:/Github/graduate_defense/online.pdf>]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 447.
+Package pdftex.def Info: SJTU.pdf used on input line 440.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [17
+ [16
 
 ]
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/sigma11.pdf): PDF
  inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma11.pdf, id=533, 260.17201pt x 169.3507pt>
+<sigma11.pdf, id=492, 260.17201pt x 169.3507pt>
 File: sigma11.pdf Graphic file (type pdf)
  <use sigma11.pdf>
-Package pdftex.def Info: sigma11.pdf used on input line 492.
+Package pdftex.def Info: sigma11.pdf used on input line 485.
 (pdftex.def)             Requested size: 108.405pt x 70.56348pt.
 
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/sigma33.pdf): PDF
  inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma33.pdf, id=534, 260.17201pt x 169.3507pt>
+<sigma33.pdf, id=493, 260.17201pt x 169.3507pt>
 File: sigma33.pdf Graphic file (type pdf)
  <use sigma33.pdf>
-Package pdftex.def Info: sigma33.pdf used on input line 492.
+Package pdftex.def Info: sigma33.pdf used on input line 485.
 (pdftex.def)             Requested size: 108.405pt x 70.56348pt.
 
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/sigma55.pdf): PDF
  inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma55.pdf, id=535, 260.17201pt x 169.3507pt>
+<sigma55.pdf, id=494, 260.17201pt x 169.3507pt>
 File: sigma55.pdf Graphic file (type pdf)
  <use sigma55.pdf>
-Package pdftex.def Info: sigma55.pdf used on input line 492.
+Package pdftex.def Info: sigma55.pdf used on input line 485.
 (pdftex.def)             Requested size: 108.405pt x 70.56348pt.
 
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/sigma77.pdf): PDF
  inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<sigma77.pdf, id=536, 260.17201pt x 169.3507pt>
+<sigma77.pdf, id=495, 260.17201pt x 169.3507pt>
 File: sigma77.pdf Graphic file (type pdf)
  <use sigma77.pdf>
-Package pdftex.def Info: sigma77.pdf used on input line 492.
+Package pdftex.def Info: sigma77.pdf used on input line 485.
 (pdftex.def)             Requested size: 108.405pt x 70.56348pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 492.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 485.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 492.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 485.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 492.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 485.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 492.
+Package pdftex.def Info: SJTU.pdf used on input line 485.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (8.42177pt too high) detected at line 492
+Overfull \vbox (8.42177pt too high) detected at line 485
  []
 
-[18
+[17
 
  <E:/Github/graduate_defense/sigma11.pdf> <E:/Github/graduate_defense/sigma33.p
 df> <E:/Github/graduate_defense/sigma55.pdf> <E:/Github/graduate_defense/sigma7
@@ -1805,461 +1750,523 @@ df> <E:/Github/graduate_defense/sigma55.pdf> <E:/Github/graduate_defense/sigma7
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/nu1.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<nu1.pdf, id=660, 260.17201pt x 169.3507pt>
+<nu1.pdf, id=619, 260.17201pt x 169.3507pt>
 File: nu1.pdf Graphic file (type pdf)
  <use nu1.pdf>
-Package pdftex.def Info: nu1.pdf used on input line 532.
+Package pdftex.def Info: nu1.pdf used on input line 525.
 (pdftex.def)             Requested size: 166.2212pt x 108.20059pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 532.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 525.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 532.
+Package pdftex.def Info: SJTU.pdf used on input line 525.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-[19
+[18
 
  <E:/Github/graduate_defense/nu1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/platform.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<platform.pdf, id=694, 1027.84pt x 770.88pt>
+<platform.pdf, id=652, 1027.84pt x 770.88pt>
 File: platform.pdf Graphic file (type pdf)
  <use platform.pdf>
-Package pdftex.def Info: platform.pdf used on input line 556.
+Package pdftex.def Info: platform.pdf used on input line 552.
 (pdftex.def)             Requested size: 144.54pt x 108.40472pt.
 
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/softwareinterface
 .pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowe
 d
-<softwareinterface.pdf, id=695, 2746.26pt x 2059.695pt>
+<softwareinterface.pdf, id=653, 2746.26pt x 2059.695pt>
 File: softwareinterface.pdf Graphic file (type pdf)
 
 <use softwareinterface.pdf>
-Package pdftex.def Info: softwareinterface.pdf used on input line 556.
+Package pdftex.def Info: softwareinterface.pdf used on input line 552.
 (pdftex.def)             Requested size: 144.54pt x 108.39645pt.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 556.
+Package pdftex.def Info: SJTU.pdf used on input line 552.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (25.13698pt too high) detected at line 556
+Overfull \vbox (11.41321pt too high) detected at line 552
+ []
+
+[19
+
+ <E:/Github/graduate_defense/platform.pdf> <E:/Github/graduate_defense/software
+interface.pdf>] <umframework.pdf, id=671, 521.01137pt x 469.00218pt>
+File: umframework.pdf Graphic file (type pdf)
+
+<use umframework.pdf>
+Package pdftex.def Info: umframework.pdf used on input line 576.
+(pdftex.def)             Requested size: 108.405pt x 97.57735pt.
+
+
+pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/softwarefunction.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<softwarefunction.pdf, id=672, 682.86569pt x 391.22531pt>
+File: softwarefunction.pdf Graphic file (type pdf)
+
+<use softwarefunction.pdf>
+Package pdftex.def Info: softwarefunction.pdf used on input line 576.
+(pdftex.def)             Requested size: 173.44756pt x 99.37012pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 576.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+
+Overfull \vbox (20.98694pt too high) detected at line 576
  []
 
 [20
 
- <E:/Github/graduate_defense/platform.pdf> <E:/Github/graduate_defense/software
-interface.pdf>]
+ <E:/Github/graduate_defense/umframework.pdf> <E:/Github/graduate_defense/softw
+arefunction.pdf>]
+
+pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/dataprocess.pdf):
+ PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<dataprocess.pdf, id=779, 382.26312pt x 305.26949pt>
+File: dataprocess.pdf Graphic file (type pdf)
+ <use dataprocess.pdf>
+Package pdftex.def Info: dataprocess.pdf used on input line 594.
+(pdftex.def)             Requested size: 115.63243pt x 92.3408pt.
+
+
+pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/function.pdf): PD
+F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<function.pdf, id=780, 528.52957pt x 551.18422pt>
+File: function.pdf Graphic file (type pdf)
+ <use function.pdf>
+Package pdftex.def Info: function.pdf used on input line 594.
+(pdftex.def)             Requested size: 115.63243pt x 120.58806pt.
 File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 621.
+
+<use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 594.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (1.53323pt too high) detected at line 621
+Overfull \vbox (18.61723pt too high) detected at line 594
  []
 
 [21
 
+ <E:/Github/graduate_defense/dataprocess.pdf> <E:/Github/graduate_defense/funct
+ion.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 639.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 639.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+
+Overfull \vbox (7.03818pt too high) detected at line 639
+ []
+
+[22
+
 ]
-Underfull \hbox (badness 1215) in paragraph at lines 643--643
-[]\T1/phv/m/n/6 [8] []K.I. Itoh et al. []   Per-for-mance of hand-off al-go-ri
+Underfull \hbox (badness 1215) in paragraph at lines 661--661
+[]\T1/phv/m/n/6 [9] []K.I. Itoh et al. []   Per-for-mance of hand-off al-go-ri
 thm based on dis-tance and RSSI mea-sure-ments. [] In:
  []
 
-<em.pdf, id=721, 361.35pt x 216.81pt>
+<em.pdf, id=829, 361.35pt x 216.81pt>
 File: em.pdf Graphic file (type pdf)
  <use em.pdf>
-Package pdftex.def Info: em.pdf used on input line 643.
+Package pdftex.def Info: em.pdf used on input line 661.
 (pdftex.def)             Requested size: 144.54pt x 86.72246pt.
 
-<short.pdf, id=722, 361.35pt x 216.81pt>
+<short.pdf, id=830, 361.35pt x 216.81pt>
 File: short.pdf Graphic file (type pdf)
  <use short.pdf>
-Package pdftex.def Info: short.pdf used on input line 643.
+Package pdftex.def Info: short.pdf used on input line 661.
 (pdftex.def)             Requested size: 144.54pt x 86.72246pt.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 643.
+Package pdftex.def Info: SJTU.pdf used on input line 661.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-[22
+[23
 
  <E:/Github/graduate_defense/em.pdf> <E:/Github/graduate_defense/short.pdf>] (E
 :\Github\graduate_defense\graduate_defense.toc)
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 647.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [23
-
-]
-File: SJTU.pdf Graphic file (type pdf)
-
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 667.
+Package pdftex.def Info: SJTU.pdf used on input line 665.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [24
-
-] (E:\Github\graduate_defense\graduate_defense.toc)
-File: SJTU.pdf Graphic file (type pdf)
-
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 669.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [25
 
 ]
 
 pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/modeling1.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<modeling1.pdf, id=796, 1040.2233pt x 478.39828pt>
+<modeling1.pdf, id=876, 1040.2233pt x 478.39828pt>
 File: modeling1.pdf Graphic file (type pdf)
  <use modeling1.pdf>
-Package pdftex.def Info: modeling1.pdf used on input line 688.
+Package pdftex.def Info: modeling1.pdf used on input line 684.
 (pdftex.def)             Requested size: 171.21765pt x 78.74251pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 688.
+Package pdftex.def Info: SJTU.pdf used on input line 684.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (13.49838pt too high) detected at line 688
+Overfull \vbox (13.49838pt too high) detected at line 684
  []
 
-[26
+[25
 
  <E:/Github/graduate_defense/modeling1.pdf>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 704.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 700.
 
 ("C:\Program Files\CTEX\MiKTeX\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<m_weighted.pdf, id=819, 361.35pt x 86.3225pt>
+<m_weighted.pdf, id=900, 361.35pt x 86.3225pt>
 File: m_weighted.pdf Graphic file (type pdf)
  <use m_weighted.pdf>
-Package pdftex.def Info: m_weighted.pdf used on input line 704.
+Package pdftex.def Info: m_weighted.pdf used on input line 700.
 (pdftex.def)             Requested size: 273.9493pt x 65.44374pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 704.
+Package pdftex.def Info: SJTU.pdf used on input line 700.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [27
+ [26
 
  <E:/Github/graduate_defense/m_weighted.pdf>]
-<pdr.pdf, id=838, 289.08pt x 216.81pt>
+<pdr.pdf, id=919, 289.08pt x 216.81pt>
 File: pdr.pdf Graphic file (type pdf)
  <use pdr.pdf>
-Package pdftex.def Info: pdr.pdf used on input line 720.
+Package pdftex.def Info: pdr.pdf used on input line 716.
 (pdftex.def)             Requested size: 164.36748pt x 123.27531pt.
 
-<MCS.pdf, id=839, 361.35pt x 289.08pt>
+<MCS.pdf, id=920, 361.35pt x 289.08pt>
 File: MCS.pdf Graphic file (type pdf)
  <use MCS.pdf>
-Package pdftex.def Info: MCS.pdf used on input line 720.
+Package pdftex.def Info: MCS.pdf used on input line 716.
 (pdftex.def)             Requested size: 154.09483pt x 123.2742pt.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 720.
+Package pdftex.def Info: SJTU.pdf used on input line 716.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [28
+ [27
 
  <E:/Github/graduate_defense/pdr.pdf> <E:/Github/graduate_defense/MCS.pdf>]
 (E:\Github\graduate_defense\graduate_defense.toc)
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 722.
+Package pdftex.def Info: SJTU.pdf used on input line 718.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [29
+ [28
 
 ]
-<modeling.pdf, id=884, 1441.7233pt x 577.51556pt>
+<modeling.pdf, id=963, 1441.7233pt x 577.51556pt>
 File: modeling.pdf Graphic file (type pdf)
  <use modeling.pdf>
-Package pdftex.def Info: modeling.pdf used on input line 774.
+Package pdftex.def Info: modeling.pdf used on input line 770.
 (pdftex.def)             Requested size: 202.35622pt x 81.0543pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 774.
+Package pdftex.def Info: SJTU.pdf used on input line 770.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [30
+ [29
 
  <E:/Github/graduate_defense/modeling.pdf>]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 802.
+Package pdftex.def Info: SJTU.pdf used on input line 798.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-[31
+[30
 
-] <m_sliding.pdf, id=915, 361.35pt x 86.3225pt>
+] <m_sliding.pdf, id=993, 361.35pt x 86.3225pt>
 File: m_sliding.pdf Graphic file (type pdf)
  <use m_sliding.pdf>
-Package pdftex.def Info: m_sliding.pdf used on input line 837.
+Package pdftex.def Info: m_sliding.pdf used on input line 833.
 (pdftex.def)             Requested size: 273.9493pt x 65.44374pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 837.
+Package pdftex.def Info: SJTU.pdf used on input line 833.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [32
+ [31
 
  <E:/Github/graduate_defense/m_sliding.pdf>]
-<cdf.pdf, id=936, 216.81pt x 310.15875pt>
-File: cdf.pdf Graphic file (type pdf)
- <use cdf.pdf>
-Package pdftex.def Info: cdf.pdf used on input line 863.
-(pdftex.def)             Requested size: 68.48601pt x 97.975pt.
-
-<DSWA.pdf, id=937, 361.35pt x 216.81pt>
-File: DSWA.pdf Graphic file (type pdf)
- <use DSWA.pdf>
-Package pdftex.def Info: DSWA.pdf used on input line 863.
-(pdftex.def)             Requested size: 164.36748pt x 98.61893pt.
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 863.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
-
-Overfull \vbox (28.37573pt too high) detected at line 863
- []
-
-[33
-
- <E:/Github/graduate_defense/cdf.pdf> <E:/Github/graduate_defense/DSWA.pdf>] <p
-dr_ch_sgi.pdf, id=964, 361.35pt x 216.81pt>
+<pdr_ch_sgi.pdf, id=1015, 361.35pt x 216.81pt>
 File: pdr_ch_sgi.pdf Graphic file (type pdf)
  <use pdr_ch_sgi.pdf>
-Package pdftex.def Info: pdr_ch_sgi.pdf used on input line 891.
+Package pdftex.def Info: pdr_ch_sgi.pdf used on input line 861.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<pdr_ch_lgi.pdf, id=965, 361.35pt x 216.81pt>
+<pdr_ch_lgi.pdf, id=1016, 361.35pt x 216.81pt>
 File: pdr_ch_lgi.pdf Graphic file (type pdf)
  <use pdr_ch_lgi.pdf>
-Package pdftex.def Info: pdr_ch_lgi.pdf used on input line 891.
+Package pdftex.def Info: pdr_ch_lgi.pdf used on input line 861.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<pdr_sgi.pdf, id=966, 361.35pt x 216.81pt>
+<pdr_sgi.pdf, id=1017, 361.35pt x 216.81pt>
 File: pdr_sgi.pdf Graphic file (type pdf)
  <use pdr_sgi.pdf>
-Package pdftex.def Info: pdr_sgi.pdf used on input line 891.
+Package pdftex.def Info: pdr_sgi.pdf used on input line 861.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 pdfTeX warning (ext4): destination with the same identifier (name{pdr}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.891 \end{frame}
+l.861 \end{frame}
                  
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 891.
+Package pdftex.def Info: SJTU.pdf used on input line 861.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [34
+ [32
 
  <E:/Github/graduate_defense/pdr_ch_sgi.pdf> <E:/Github/graduate_defense/pdr_ch
-_lgi.pdf> <E:/Github/graduate_defense/pdr_sgi.pdf>] <graded.pdf, id=1001, 361.3
-5pt x 289.08pt>
+_lgi.pdf> <E:/Github/graduate_defense/pdr_sgi.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 890.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 890.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 890.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [33
+
+] <graded.pdf, id=1066, 361.35pt x 289.08pt>
 File: graded.pdf Graphic file (type pdf)
- <use graded.pdf>
-Package pdftex.def Info: graded.pdf used on input line 900.
+
+<use graded.pdf>
+Package pdftex.def Info: graded.pdf used on input line 899.
+(pdftex.def)             Requested size: 205.46327pt x 164.37149pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 899.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+
+Overfull \vbox (4.25153pt too high) detected at line 899
+ []
+
+[34
+
+ <E:/Github/graduate_defense/graded.pdf>]
+<gradedexample.pdf, id=1082, 361.35pt x 289.08pt>
+File: gradedexample.pdf Graphic file (type pdf)
+ <use gradedexample.pdf>
+Package pdftex.def Info: gradedexample.pdf used on input line 908.
 (pdftex.def)             Requested size: 205.46327pt x 164.37149pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 900.
+Package pdftex.def Info: SJTU.pdf used on input line 908.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (4.25153pt too high) detected at line 900
+Overfull \vbox (3.82446pt too high) detected at line 908
  []
 
 [35
 
- <E:/Github/graduate_defense/graded.pdf>]
-<gradedexample.pdf, id=1017, 361.35pt x 289.08pt>
-File: gradedexample.pdf Graphic file (type pdf)
- <use gradedexample.pdf>
-Package pdftex.def Info: gradedexample.pdf used on input line 909.
+ <E:/Github/graduate_defense/gradedexample.pdf>]
+<gradedexample10.pdf, id=1098, 361.35pt x 289.08pt>
+File: gradedexample10.pdf Graphic file (type pdf)
+ <use gradedexample10.pdf>
+Package pdftex.def Info: gradedexample10.pdf used on input line 917.
 (pdftex.def)             Requested size: 205.46327pt x 164.37149pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 909.
+Package pdftex.def Info: SJTU.pdf used on input line 917.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (3.82446pt too high) detected at line 909
+Overfull \vbox (3.82446pt too high) detected at line 917
  []
 
 [36
 
- <E:/Github/graduate_defense/gradedexample.pdf>]
-<gradedexample1.pdf, id=1033, 361.35pt x 289.08pt>
-File: gradedexample1.pdf Graphic file (type pdf)
- <use gradedexample1.pdf>
-Package pdftex.def Info: gradedexample1.pdf used on input line 918.
+ <E:/Github/graduate_defense/gradedexample10.pdf>]
+<gradedexample30.pdf, id=1125, 361.35pt x 289.08pt>
+File: gradedexample30.pdf Graphic file (type pdf)
+ <use gradedexample30.pdf>
+Package pdftex.def Info: gradedexample30.pdf used on input line 926.
 (pdftex.def)             Requested size: 205.46327pt x 164.37149pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 918.
+Package pdftex.def Info: SJTU.pdf used on input line 926.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (3.82446pt too high) detected at line 918
+Overfull \vbox (5.13927pt too high) detected at line 926
  []
 
 [37
 
- <E:/Github/graduate_defense/gradedexample1.pdf>]
-<gradedexample3.pdf, id=1050, 361.35pt x 289.08pt>
-File: gradedexample3.pdf Graphic file (type pdf)
- <use gradedexample3.pdf>
-Package pdftex.def Info: gradedexample3.pdf used on input line 927.
+ <E:/Github/graduate_defense/gradedexample30.pdf>]
+<gradedexample40.pdf, id=1160, 361.35pt x 289.08pt>
+File: gradedexample40.pdf Graphic file (type pdf)
+ <use gradedexample40.pdf>
+Package pdftex.def Info: gradedexample40.pdf used on input line 935.
 (pdftex.def)             Requested size: 205.46327pt x 164.37149pt.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 927.
+Package pdftex.def Info: SJTU.pdf used on input line 935.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (5.13927pt too high) detected at line 927
+Overfull \vbox (5.06726pt too high) detected at line 935
  []
 
 [38
 
- <E:/Github/graduate_defense/gradedexample3.pdf>]
-<gradedexample4.pdf, id=1066, 361.35pt x 289.08pt>
-File: gradedexample4.pdf Graphic file (type pdf)
- <use gradedexample4.pdf>
-Package pdftex.def Info: gradedexample4.pdf used on input line 936.
-(pdftex.def)             Requested size: 205.46327pt x 164.37149pt.
-File: SJTU.pdf Graphic file (type pdf)
+ <E:/Github/graduate_defense/gradedexample40.pdf>]
+<framework11n.pdf, id=1187, 361.35pt x 216.81pt>
+File: framework11n.pdf Graphic file (type pdf)
+ <use framework11n.pdf>
+Package pdftex.def Info: framework11n.pdf used on input line 970.
+(pdftex.def)             Requested size: 173.44756pt x 104.06761pt.
+pdfTeX warning (ext4): destination with the same identifier (name{framework}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.970 \end{frame}
+                  <testbed.pdf, id=1188, 4471.69644pt x 1298.22014pt>
+File: testbed.pdf Graphic file (type pdf)
 
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 936.
+<use testbed.pdf>
+Package pdftex.def Info: testbed.pdf used on input line 970.
+(pdftex.def)             Requested size: 308.18968pt x 89.45842pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 970.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (5.06726pt too high) detected at line 936
+Overfull \vbox (10.93526pt too high) detected at line 970
  []
 
 [39
 
- <E:/Github/graduate_defense/gradedexample4.pdf>]
-<framework11n.pdf, id=1082, 361.35pt x 216.81pt>
-File: framework11n.pdf Graphic file (type pdf)
- <use framework11n.pdf>
-Package pdftex.def Info: framework11n.pdf used on input line 956.
-(pdftex.def)             Requested size: 173.44756pt x 104.06761pt.
-
-<testbed.pdf, id=1083, 4471.69644pt x 1298.22014pt>
-File: testbed.pdf Graphic file (type pdf)
- <use testbed.pdf>
-Package pdftex.def Info: testbed.pdf used on input line 956.
-(pdftex.def)             Requested size: 308.18968pt x 89.45842pt.
-File: SJTU.pdf Graphic file (type pdf)
-
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 956.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [40
-
  <E:/Github/graduate_defense/framework11n.pdf> <E:/Github/graduate_defense/test
-bed.pdf>] <route1.pdf, id=1118, 361.35pt x 216.81pt>
-File: route1.pdf Graphic file (type pdf)
+bed.pdf>] <cdf.pdf, id=1222, 216.81pt x 310.15875pt>
+File: cdf.pdf Graphic file (type pdf)
+ <use cdf.pdf>
+Package pdftex.def Info: cdf.pdf used on input line 996.
+(pdftex.def)             Requested size: 68.48601pt x 97.975pt.
 
-<use route1.pdf>
-Package pdftex.def Info: route1.pdf used on input line 981.
+<DSWA.pdf, id=1223, 361.35pt x 216.81pt>
+File: DSWA.pdf Graphic file (type pdf)
+ <use DSWA.pdf>
+Package pdftex.def Info: DSWA.pdf used on input line 996.
+(pdftex.def)             Requested size: 164.36748pt x 98.61893pt.
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 996.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+
+Overfull \vbox (28.37573pt too high) detected at line 996
+ []
+
+[40
+
+ <E:/Github/graduate_defense/cdf.pdf> <E:/Github/graduate_defense/DSWA.pdf>] <r
+oute1.pdf, id=1250, 361.35pt x 216.81pt>
+File: route1.pdf Graphic file (type pdf)
+ <use route1.pdf>
+Package pdftex.def Info: route1.pdf used on input line 1021.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
- <route2.pdf, id=1119, 361.35pt x 216.81pt>
+
+<route2.pdf, id=1251, 361.35pt x 216.81pt>
 File: route2.pdf Graphic file (type pdf)
  <use route2.pdf>
-Package pdftex.def Info: route2.pdf used on input line 981.
+Package pdftex.def Info: route2.pdf used on input line 1021.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<route3.pdf, id=1120, 361.35pt x 216.81pt>
+<route3.pdf, id=1252, 361.35pt x 216.81pt>
 File: route3.pdf Graphic file (type pdf)
  <use route3.pdf>
-Package pdftex.def Info: route3.pdf used on input line 981.
+Package pdftex.def Info: route3.pdf used on input line 1021.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 981.
+Package pdftex.def Info: SJTU.pdf used on input line 1021.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
 [41
 
  <E:/Github/graduate_defense/route1.pdf> <E:/Github/graduate_defense/route2.pdf
 > <E:/Github/graduate_defense/route3.pdf>]
-<CDF1x3.pdf, id=1156, 361.35pt x 216.81pt>
+<CDF1x3.pdf, id=1288, 361.35pt x 216.81pt>
 File: CDF1x3.pdf Graphic file (type pdf)
  <use CDF1x3.pdf>
-Package pdftex.def Info: CDF1x3.pdf used on input line 1006.
+Package pdftex.def Info: CDF1x3.pdf used on input line 1046.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<CDF2x3.pdf, id=1157, 361.35pt x 216.81pt>
+<CDF2x3.pdf, id=1289, 361.35pt x 216.81pt>
 File: CDF2x3.pdf Graphic file (type pdf)
  <use CDF2x3.pdf>
-Package pdftex.def Info: CDF2x3.pdf used on input line 1006.
+Package pdftex.def Info: CDF2x3.pdf used on input line 1046.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 
-<CDF3x3.pdf, id=1158, 361.35pt x 216.81pt>
+<CDF3x3.pdf, id=1290, 361.35pt x 216.81pt>
 File: CDF3x3.pdf Graphic file (type pdf)
  <use CDF3x3.pdf>
-Package pdftex.def Info: CDF3x3.pdf used on input line 1006.
+Package pdftex.def Info: CDF3x3.pdf used on input line 1046.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 pdfTeX warning (ext4): destination with the same identifier (name{thruputcdf}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1006 \end{frame}
+l.1046 \end{frame}
                   
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1006.
+Package pdftex.def Info: SJTU.pdf used on input line 1046.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [42
 
  <E:/Github/graduate_defense/CDF1x3.pdf> <E:/Github/graduate_defense/CDF2x3.pdf
-> <E:/Github/graduate_defense/CDF3x3.pdf>] <goodput1.pdf, id=1193, 361.35pt x 2
+> <E:/Github/graduate_defense/CDF3x3.pdf>] <goodput1.pdf, id=1325, 361.35pt x 2
 16.81pt>
 File: goodput1.pdf Graphic file (type pdf)
  <use goodput1.pdf>
-Package pdftex.def Info: goodput1.pdf used on input line 1032.
+Package pdftex.def Info: goodput1.pdf used on input line 1072.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 pdfTeX warning (ext4): destination with the same identifier (name{thruput1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1032 \end{frame}
-                   <goodput2.pdf, id=1194, 361.35pt x 216.81pt>
+l.1072 \end{frame}
+                   <goodput2.pdf, id=1326, 361.35pt x 216.81pt>
 File: goodput2.pdf Graphic file (type pdf)
 
 <use goodput2.pdf>
-Package pdftex.def Info: goodput2.pdf used on input line 1032.
+Package pdftex.def Info: goodput2.pdf used on input line 1072.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 pdfTeX warning (ext4): destination with the same identifier (name{thruput2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1032 \end{frame}
-                   <goodput3.pdf, id=1195, 361.35pt x 216.81pt>
+l.1072 \end{frame}
+                   <goodput3.pdf, id=1327, 361.35pt x 216.81pt>
 File: goodput3.pdf Graphic file (type pdf)
 
 <use goodput3.pdf>
-Package pdftex.def Info: goodput3.pdf used on input line 1032.
+Package pdftex.def Info: goodput3.pdf used on input line 1072.
 (pdftex.def)             Requested size: 113.00427pt x 67.80257pt.
 pdfTeX warning (ext4): destination with the same identifier (name{thruput3}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1032 \end{frame}
+l.1072 \end{frame}
                   
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1032.
+Package pdftex.def Info: SJTU.pdf used on input line 1072.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (14.52919pt too high) detected at line 1032
+Overfull \vbox (14.52919pt too high) detected at line 1072
  []
 
 [43
@@ -2268,186 +2275,122 @@ Overfull \vbox (14.52919pt too high) detected at line 1032
 .pdf> <E:/Github/graduate_defense/goodput3.pdf>]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1043.
+Package pdftex.def Info: SJTU.pdf used on input line 1083.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [44
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <25> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 1054.
 File: SJTU.pdf Graphic file (type pdf)
 
 <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1054.
+Package pdftex.def Info: SJTU.pdf used on input line 1123.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [45
 
+Overfull \vbox (0.19641pt too high) detected at line 1123
+ []
+
+[45
+
+ <C:/Program Files/CTEX/MiKTeX/tex/latex/beamer/base/art/beamericonarticle.pdf>
 ]
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 1084.
-
- ("C:\Program Files\CTEX\MiKTeX\tex\latex\psnfss\t1ptm.fd"
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <25> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1134.
 File: SJTU.pdf Graphic file (type pdf)
-
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1084.
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 1134.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
  [46
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1107.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 1164.
+
+
+("C:\Program Files\CTEX\MiKTeX\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1107.
+Package pdftex.def Info: SJTU.pdf used on input line 1164.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [47
+
+[47
+
+]
+File: SJTU.pdf Graphic file (type pdf)
+ <use SJTU.pdf>
+Package pdftex.def Info: SJTU.pdf used on input line 1187.
+(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
+ [48
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Perrornu}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1129 \end{frame}
+l.1209 \end{frame}
                   
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1129.
+Package pdftex.def Info: SJTU.pdf used on input line 1209.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (4.30394pt too high) detected at line 1129
+Overfull \vbox (4.30394pt too high) detected at line 1209
  []
 
-[48
+[49
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Q_e}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1154 \end{frame}
+l.1234 \end{frame}
                   
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1154.
+Package pdftex.def Info: SJTU.pdf used on input line 1234.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [49
+ [50
 
 ]
-<umframework.pdf, id=1290, 521.01137pt x 469.00218pt>
-File: umframework.pdf Graphic file (type pdf)
- <use umframework.pdf>
-Package pdftex.def Info: umframework.pdf used on input line 1173.
-(pdftex.def)             Requested size: 104.79128pt x 94.32834pt.
-
-
-pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/softwarefunction.
-pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-
-<softwarefunction.pdf, id=1291, 682.86569pt x 391.22531pt>
-File: softwarefunction.pdf Graphic file (type pdf)
-
-<use softwarefunction.pdf>
-Package pdftex.def Info: softwarefunction.pdf used on input line 1173.
-(pdftex.def)             Requested size: 130.08621pt x 74.5246pt.
-pdfTeX warning (ext4): destination with the same identifier (name{framework}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1173 \end{frame}
-                  
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1173.
+Package pdftex.def Info: SJTU.pdf used on input line 1270.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
 
-Overfull \vbox (12.19325pt too high) detected at line 1173
- []
-
-[50
-
- <E:/Github/graduate_defense/umframework.pdf> <E:/Github/graduate_defense/softw
-arefunction.pdf>]
-
-pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/dataprocess.pdf):
- PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<dataprocess.pdf, id=1397, 382.26312pt x 305.26949pt>
-File: dataprocess.pdf Graphic file (type pdf)
- <use dataprocess.pdf>
-Package pdftex.def Info: dataprocess.pdf used on input line 1191.
-(pdftex.def)             Requested size: 115.63243pt x 92.3408pt.
-
-
-pdfTeX warning: pdflatex.exe (file E:/Github/graduate_defense/function.pdf): PD
-F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<function.pdf, id=1398, 528.52957pt x 551.18422pt>
-File: function.pdf Graphic file (type pdf)
- <use function.pdf>
-Package pdftex.def Info: function.pdf used on input line 1191.
-(pdftex.def)             Requested size: 115.63243pt x 120.58806pt.
-File: SJTU.pdf Graphic file (type pdf)
-
-<use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1191.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
-
-Overfull \vbox (18.61723pt too high) detected at line 1191
+Overfull \vbox (10.83961pt too high) detected at line 1270
  []
 
 [51
 
- <E:/Github/graduate_defense/dataprocess.pdf> <E:/Github/graduate_defense/funct
-ion.pdf>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 1227.
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1227.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
-
-Overfull \vbox (10.83961pt too high) detected at line 1227
- []
-
-[52
-
 ]
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1269.
+Package pdftex.def Info: SJTU.pdf used on input line 1312.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [53
+ [52
 
 pdfTeX warning (ext4): destination with the same identifier (name{error}) has b
 een already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.1269 \end{frame}
+l.1312 \end{frame}
                   ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 1299.
 File: SJTU.pdf Graphic file (type pdf)
  <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1299.
+Package pdftex.def Info: SJTU.pdf used on input line 1341.
 (pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [54
-
-]
-File: SJTU.pdf Graphic file (type pdf)
- <use SJTU.pdf>
-Package pdftex.def Info: SJTU.pdf used on input line 1328.
-(pdftex.def)             Requested size: 75.82227pt x 19.91684pt.
- [55
+ [53
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1367.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1367.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1344.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1344.
 
 (E:\Github\graduate_defense\graduate_defense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1367.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1367.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1344.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1344.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2455,21 +2398,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'graduate_defense.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27833 strings out of 494045
- 502603 string characters out of 3148016
- 692083 words of memory out of 3000000
- 30174 multiletter control sequences out of 15000+200000
- 167311 words of font info for 336 fonts, out of 3000000 for 9000
+ 27857 strings out of 494045
+ 503677 string characters out of 3148016
+ 693084 words of memory out of 3000000
+ 30210 multiletter control sequences out of 15000+200000
+ 169095 words of font info for 342 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,28n,65p,905b,2415s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,28n,65p,905b,2399s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{cite.0@marzetta1995algorithm} has been referenced
  but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@EWMAChart} has been referenced but does not 
 exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@perahia2008next} has been referenced but doe
-s not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@itoh2002performance} has been referenced but
  does not exist, replaced by a fixed one
@@ -2487,6 +2427,9 @@ pdfTeX warning (dest): name{cite.0@Ai2009wcsp} has been referenced but does not
  exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@lee1985estimate} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@perahia2008next} has been referenced but doe
 s not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.0@baldini2010early} has been referenced but do
@@ -2528,9 +2471,9 @@ rier/ucrr8a.pfb><C:/Program Files/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.p
 fb><C:/Program Files/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Progra
 m Files/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/CTEX
 /MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on graduate_defense.pdf (55 pages, 9695540 bytes).
+Output written on graduate_defense.pdf (53 pages, 6989546 bytes).
 PDF statistics:
- 1690 PDF objects out of 1728 (max. 8388607)
- 215 named destinations out of 1000 (max. 500000)
- 375 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1672 PDF objects out of 1728 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
